@@ -51,28 +51,38 @@
                         </div>
                         <div class="col-lg-7 dod-right-wrp">
                             <div class="dod-right">
+                                <!-- Main Section: Show First List Item Initially -->
                                 <div class="dod-card-wrp">
                                     <div class="dod-card">
                                         <div class="dod-card-head">
-                                            <h3>{{ dod_section.child_center_sec.dod_center_head }}</h3>
+                                            <h3 id="dod-main-head">
+                                                {{ dod_section.child_right_sec[0].dod_right_head }}
+                                            </h3>
                                         </div>
-                                        <div class="dod-card-body">
-                                            {{ dod_section.child_center_sec.description | md }}
+                                        <div class="dod-card-body" id="dod-main-body">
+                                            {{ dod_section.child_right_sec[0].description | md }} 
                                         </div>
                                     </div>
                                 </div>
 
+                                <!-- Small Cards: Dynamically Generated from List Widget -->
                                 <div class="dod-small-cards-wrp">
-                                {%- for item in dod_section.child_right_sec -%}
-                                    <div class="dod-sm-card">
-                                        <div class="dod-sm-card-head">
-                                            <h3>{{ item.dod_right_head }}</h3>
+                                    {%- for item in dod_section.child_right_sec -%}
+                                        <div class="dod-sm-card">
+                                            <div class="dod-sm-card-head">
+                                                <h3>{{ item.dod_right_head }}</h3>
+                                            </div>
+                                            <div class="dod-sm-card-btn">
+                                                <a href="#url" 
+                                                class="dod-btn" 
+                                                data-head="{{ item.dod_right_head }}" 
+                                                data-desc="{{ item.description | escape }}">
+                                                {{ item.btn }}
+                                                <img src="/img/btn-arrow.svg" alt="Arrow Icon">
+                                                </a>
+                                            </div>
                                         </div>
-                                        <div class="dod-sm-card-btn">
-                                            <a href="#url">{{ item.btn }}<img src="/img/btn-arrow.svg" alt="Arrow Icon"></a>
-                                        </div>
-                                    </div>
-                                {%- endfor -%}
+                                    {%- endfor -%}
                                 </div>
                             </div>
                         </div>
