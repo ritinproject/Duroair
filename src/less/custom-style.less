@@ -10044,12 +10044,6 @@ fieldset span {
 
 
 
-
-
-
-
-
-
 @media only screen and (min-width: 1200px){
     .container {
         max-width: 1294px !important;
@@ -10318,6 +10312,26 @@ fieldset span {
     .event::after,.event:nth-child(3)::after, .event:nth-child(5)::after {
         display: none !important;
     }
+    .expts-card-left {
+        padding-right: 0 !important;
+    }
+    .expertise-cards {
+        --bs-gutter-y: 24px ;
+        margin-bottom: 50px !important;
+    }
+    .expertise-cards:nth-child(odd) .expts-card-left {
+        padding-right: 0;
+        padding-left: 0 !important;
+    }
+    .lagecy-right-wrp {
+        width: 100% !important;
+    }
+    .lagecy-right{
+        padding-left: 0 !important;
+    }
+    .lagecy-inr-row {
+        --bs-gutter-y: 24px !important;
+    }
 }
 @media only screen and (max-width: 767px){
     .we-provide-outer {
@@ -10369,13 +10383,13 @@ fieldset span {
     .industries-grid-right {
         height: 100% !important;
     }
-    .section-heading h2,.why-choose-duroair-in h3,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3{
+    .section-heading h2,.why-choose-duroair-in h3,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3,.heading h2{
         font-size: 32px !important;
     }
     .pb-170 {
         padding-bottom: 120px !important;
     }
-    .cmn-about-inr .cmn-about-right .cmn-about-right-inr p,.cmn-about-inr .cmn-about-inr-list ul li,.tech-specs-left ul li,.understand-left p{
+    .cmn-about-inr .cmn-about-right .cmn-about-right-inr p,.cmn-about-inr .cmn-about-inr-list ul li,.tech-specs-left ul li,.understand-left p,.nederman-content p{
         font-size: 16px !important;
         line-height: 1.3 !important;
     }
@@ -10439,6 +10453,13 @@ fieldset span {
     }
     .event:nth-child(odd), .event:nth-child(odd) h2{
         text-align: left !important;
+    }
+    .mrabt-cards-row {
+        --bs-gutter-x: 80px!important;
+        --bs-gutter-y: 80px!important;
+    }
+    .lagecy-sec {
+        padding: 80px 0 !important;
     }
 }
 @media only screen and (max-width: 575px){
@@ -10506,7 +10527,7 @@ fieldset span {
     .grid-2.newsletter-signup h2 br{
         display: none !important;
     }
-    .section-heading h2,.why-choose-duroair-in h3,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3{
+    .section-heading h2,.why-choose-duroair-in h3,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3,.heading h2{
         font-size: 28px !important;
     }
     .pb-170 {
@@ -10547,6 +10568,38 @@ fieldset span {
     .page-about-beyond-compliance .beyond-compliance-in {
         gap: 40px 0 !important;
     }
+    .nederman-inr {
+        padding: 50px 0 50px 30px !important;
+    }
+    .inpt-grp-wrp .input-grp{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .lagecy-right-imges .img-2 {
+        max-height: 160px !important;
+        max-width: 200px !important;
+    }
+    .lagecy-img-wrp{
+        border-radius: 15px !important;
+    }
+    .lagecy-right-imges {
+        padding-bottom: 40px !important;
+        padding-left: 30px !important;
+    }
+    .lagecy-inr-row {
+        flex-direction: column-reverse !important;
+        --bs-gutter-y: 24px !important;
+    }
+    .lagecy-right {
+        padding-left: 0 !important;
+    }
+    .mrabt-cards-row {
+        --bs-gutter-x: 50px!important;
+        --bs-gutter-y: 50px!important;
+    }
+    .lagecy-sec {
+        padding: 60px 0 !important;
+    }
 }
 @media only screen and (max-width: 479px){
     .contact-us-right-inr form fieldset{
@@ -10578,10 +10631,10 @@ fieldset span {
     .clean-air-app-grid{
         margin-top: 2rem !important;
     }
-    .section-heading h2,.why-choose-duroair-in h3,.why-choose-duroair-box h4,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3{
+    .section-heading h2,.why-choose-duroair-in h3,.why-choose-duroair-box h4,.sec-inr-head .h2-title, .sec-inr-head h2,.mrabtcdtitle h3, .sec-head h2,.expts-card-right h3, .transfrom-solution-left h3,.sec-inr-head h3,.heading h2{
         font-size: 24px !important;
     }
-    .why-choose-duroair-in p,.expts-card-right p, .transfrom-solution-left p{
+    .why-choose-duroair-in p,.expts-card-right p, .transfrom-solution-left p,.lagecy-content p, ul li{
         font-size: 16px !important;
         line-height: 1.3 !important;
     }
@@ -10639,29 +10692,21 @@ fieldset span {
     .transfromsl-img-wrp:first-child {
         padding: 20px 0 0;
     }
-
-
-    .inpt-grp-wrp .input-grp{
-        width: 100% !important;
-        padding: 0 !important;
+    .exptscd-img img{
+        border-radius: 12px !important;
     }
-    .lagecy-right-imges .img-2 {
-        max-height: 160px !important;
-        max-width: 200px !important;
+    .expertise-cards {
+        margin-bottom: 30px !important;
     }
-    .lagecy-img-wrp{
-        border-radius: 15px !important;
+    .sec-head {
+        margin-bottom: 40px !important;
     }
-    .lagecy-right-imges {
-        padding-bottom: 40px !important;
-        padding-left: 30px !important;
+    .mrabt-cards-row {
+        --bs-gutter-x: 24px!important;
+        --bs-gutter-y: 24px!important;
     }
-    .lagecy-inr-row {
-        flex-direction: column-reverse !important;
-        --bs-gutter-y: 24px !important;
-    }
-    .lagecy-right {
-        padding-left: 0 !important;
+    .lagecy-sec {
+        padding: 60px 0 30px !important;
     }
 }
 @media only screen and (max-width: 375px){
