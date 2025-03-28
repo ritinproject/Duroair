@@ -94,6 +94,8 @@ key_features: >-
 
   * **Variable Frequency Drive** Energy-efficient VFD with adjustable air speeds, doubles as a soft starter to eliminate the need for a motor.
 image_2: /media/uploads/duropure-img1.jpg
+related_solutions:
+  - Dust Collection
 brochure: /media/uploads/Duroair DuroTable™ System W.pdf
 btn_label: DOWNLOAD FACT SHEET
 technical_specifications: >-
