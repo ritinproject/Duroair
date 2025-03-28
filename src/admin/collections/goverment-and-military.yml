@@ -27,17 +27,12 @@
           fields:
             - {label: Heading, name: dod_left_head, widget: string}
             - {label: Description, name: dod_desc, widget: markdown}
-        - name: child_center_sec
-          label: Child Center Section
-          widget: object
-          fields:
-            - {label: Heading, name: dod_center_head, widget: string}
-            - {label: Description, name: description, widget: markdown}
         - name: child_right_sec
           label: Child Right Section
           widget: list
           fields:
             - {label: Heading, name: dod_right_head, widget: string}
+            - {label: Description, name: description, widget: markdown}
             - {label: Button, name: btn, widget: string}
 
     - name: flexibility
