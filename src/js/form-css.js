@@ -5,4 +5,4 @@ setTimeout(() => {
         form.style.top = "20px";
         form.style.left = "-50px";
     }
-}, 2000); // Delay to ensure form loads
+}, 5000); // Delay to ensure form loads
