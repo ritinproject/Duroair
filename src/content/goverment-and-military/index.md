@@ -62,7 +62,60 @@ dod_section:
       MRAPs, or submarines, creating a cost-effective alternative to
       conventional systems.
   child_right_sec:
-    
+    - btn: Read More
+      dod_right_head: Ensure Service Member Health & Safety
+      description: >-
+        <!--StartFragment-->
+
+
+        * Protection is tested, verified, and confirmed by the DCPH-A.
+
+        * Mitigate exposure to hexavalent chromium, isocyanates, heavy metals, and VOCs. Meets the HQDA mandate.
+
+        * Isolate toxic processes from other service members in a shared space.
+
+        * Systems meet CFM requirements. VFD allows for control of airflow. Airflow is 100 FPM. At these air speeds the requirement for less than 25% LEL is met.
+
+        * Each system is monitored to verify OSHA limits are maintained.
+
+        * OSHA, ACGIH, NFPA Compliant.
+
+
+        <!--EndFragment-->
+    - dod_right_head: Reduce Maintenance Costs
+      description: >-
+        <!--StartFragment-->
+
+
+        * One system for multiple processes saves valuable floor space.
+
+        * Systems are retractable when not in use. Space can be used for other operations, rather than a designated space for maintenance.
+
+        * No extra square footage is required.
+
+        * Eliminate outsourcing costs. Move work in-house and increase security and flexibility — capitalizing on trained personnel.
+
+        * Retrofit older leased facilities into maintenance workspaces without infrastructure investment.
+
+        * Reduce energy costs. Recirculate clean, filtered air into the workspace. No venting to the exterior is required.
+
+
+        <!--EndFragment-->
+      btn: Read More
+    - dod_right_head: Increase Operational Readiness
+      description: >-
+        <!--StartFragment-->
+
+
+        * Brings MRO in house to increase operational readiness and reduce downtime.
+
+        * Deployment-ready solutions are available.
+
+        * Each Duroair portable solution is plug and play. The clean air systems are on wheels and can be moved anywhere inside a hangar space or deployed.
+
+
+        <!--EndFragment-->
+      btn: Read More
 flexibility:
   - heading: "Use DuroRoom Containment to:"
     description: >-
