@@ -168,6 +168,9 @@ compliance:
   - code: ISO cleanroom compliant
     description: up to Class 1000/ISO6 (ISO class clean room typically measures
       micron sizes 5.0µ, 0.5µ and 0.3µ)
+related_solutions:
+  - Weld Smoke
+  - Dust Collection
 g&m_related_data:
   show_data: For a complete clean air solution, pair DuroDust with DuroRoom.
   hide_data: >-
