@@ -88,6 +88,6 @@ questions:
     question: My organization’s lean production system works on large parts and uses
       overhead cranes. Are Duroair’s solutions suitable for us given these
       factors?
-    category: Industrial Clean Air Systems
+    category: DuroCap™
 ---
 ****
