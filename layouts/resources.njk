@@ -1,0 +1,95 @@
+{% extends "layout.njk" %}
+{% block body %}
+<!-- Understand Section Begin -->
+
+    <div class="understand-sec cmn-gap">
+        <div class="container">
+            <div class="understand-inr">
+                <div class="sec-inr-head">
+                    <h2>{{head}}</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-7 col-sm-12 understand-left-col">
+                        <div class="understand-left">
+                            <div class="understandleft-img">
+                                <img src="{{image_1}}" alt="Image">
+                            </div>
+                            <p>{{desc}}</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-12 understand-right-col">
+                        <div class="understand-right">
+                            <div class="blob1"></div>
+                            <div class="undrstnd-rt-img"><img src="{{image_2}}" alt="Image"></div>
+                            <div class="undrstnd-rt-img"><img src="{{image_3}}" alt="Image"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- End Of Understand Section -->
+
+<!-- Resources Section Begin -->
+<div class="resources-sec cmn-gap has-texture">
+    <div class="texture">
+        <img src="/img/shape-4.png" alt="Texture">
+    </div>
+    <div class="texture texture-2">
+        <img src="/img/shape-4.png" alt="Texture">
+    </div>
+    <div class="container">
+        <div class="resources-inr">
+            <div class="sec-head newhedline">
+                <h2>Educational Resources on Industrial Clean Air Innovation</h2>
+            </div>
+            <div class="row resource-cards-row">
+                {%- for card in cards -%}
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="resource-card">
+                        <div class="resource-img">
+                            {%- if card.type == 'Blog' -%}
+                                {% set img = posts[0].jumbotron.img %}
+                            {%- elif card.type == 'Case Study' -%}
+                                {% set img = caseStudies[0].jumbotron.img %}
+                            {%- elif card.type == 'Video' -%}
+                                {% set img = videos[0].youtube_url | getYoutubeThumbnail %}
+                            {%- else -%}
+                                {% set img = card.image %}
+                            {%- endif -%}
+                            <img src="{{ img }}" alt="{{ card.title }}">
+                        </div>
+                        <div class="resource-body">
+                            <h3>{{ card.title }}</h3>
+                            <div class="resource-content">
+                                <p>{{ card.copy }}</p>
+                                <a href="{{ card.url }}" class="cmn-btn">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Resources Section -->
+
+    <!-- GLOBAL-LEADERS-SECTION -->
+        <div class="global-leaders-wrap">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Proudly Serving Global Leaders <br>Across Industries</h2>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                  {% include "partials/solutions-delivered.njk" %}
+                </div>
+            </div>
+            </div>
+        </div>
+    <!-- GLOBAL-LEADERS-SECTION -->
+{% endblock %}
