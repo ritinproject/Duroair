@@ -68,7 +68,16 @@ new_key_features:
 
 
       <!--EndFragment-->
+key_images:
+  image_1: /media/uploads/durotower-thumbnail.jpg
+  image_2: /media/uploads/durotower-thumb.jpg
+  image_3: /media/uploads/hero-durocap.jpg
+  image_4: /media/uploads/dur-201305-february-blog-thumb.jpg
 image_2: /img/image-3-durotower.jpg
+related_solutions:
+  - Dust Collection
+  - Additive Manufacturing
+  - Weld Smoke
 technical_specifications: >-
   * 8,000 – 30,000 CFM design range
 
@@ -137,11 +146,6 @@ techncal_specification:
 
 
     <!--EndFragment-->
-key_images:
-  image_1: /media/uploads/durotower-thumbnail.jpg
-  image_2: /media/uploads/durotower-thumb.jpg
-  image_3: /media/uploads/hero-durocap.jpg
-  image_4: /media/uploads/dur-201305-february-blog-thumb.jpg
 key_features: >-
   * **DuroTower System**: Revolving airflow system is ten times more energy
   efficient than traditional overhead cleaners, saving energy costs.
