@@ -9,7 +9,7 @@
                 <div class="texture"><img src="/img/military-csstdy-texture.png" alt="Texture"></div>
                 <div class="row">
                     <div class="col-lg-5">
-                        <div class="transfrom-solution-left">
+                        <div class="transfrom-solution-left"> 
                             <div class="sec-inr-head">
                                 {{ contents | md }}
                             </div>
@@ -81,21 +81,23 @@
                             <div class="specialised-slider">
                                 {%- for item in solutions_for_industry -%}
                                 {%- set solution = item | findByField('title', solutions) -%}
-                                <div class="specialised-slider-item">
-                                    <div class="specialised-item-inr">
-                                        <a href="/{{ solution.path }}" class="specialised-img">
-                                            <img src="{{ solution.thumbnail }}" alt="{{ solution.title }}">
-                                        </a>
-                                        <div class="specialised-card-content">
-                                            <div class="spcl-card-content-inr">
-                                                <h3><a href="/{{ solution.path }}">{{ solution.title }}</a></h3>
-                                                <p>{{ solution.short_description }}</p>
+                                {%- if solution -%}
+                                    <div class="specialised-slider-item">
+                                        <div class="specialised-item-inr">
+                                            <a href="/{{ solution.path }}" class="specialised-img">
+                                                <img src="{{ solution.thumbnail }}" alt="{{ solution.title }}">
+                                            </a>
+                                            <div class="specialised-card-content">
+                                                <div class="spcl-card-content-inr">
+                                                    <h3><a href="/{{ solution.path }}">{{ solution.title }}</a></h3>
+                                                    <p>{{ solution.short_description }}</p>
+                                                </div>
+                                                <a href="/{{ solution.path }}">Learn more</a>
                                             </div>
-                                            <a href="/{{ solution.path }}">Learn more</a>
                                         </div>
                                     </div>
-                                </div>
-                                {%- endfor -%}
+                                {%- endif -%}
+                            {%- endfor -%}
                             </div>
                         </div>
                     </div>
