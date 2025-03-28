@@ -123,6 +123,8 @@ key_features: >-
 
   * **Air Changes Per Hour (ACH)**: Combines air changes per hour (ACH) with filtered air circulating into the cleanroom many times per hour (designed to meet ISO classifications).
 image_2: /media/uploads/duroclean-1.jpg
+related_solutions:
+  - Clean Rooms
 g&m_related_data:
   show_data: Pair DuroClean™ with DuroRoom for on-demand clean rooms and isolation
     rooms whenever and wherever needed.
