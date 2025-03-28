@@ -106,6 +106,11 @@ new_key_features:
 
 
       <!--EndFragment-->
+key_images:
+  image_1: /media/uploads/features-1-using-generator-durodeployable.webp
+  image_2: /media/uploads/dur_sept_blog-img_small.jpg
+  image_3: /media/uploads/dur_dec2020_blog_02-img.jpg
+  image_4: /media/uploads/dur_dec2020_blog_01-thumb.jpg
 image_2: /media/uploads/technical-specifications.webp
 g&m_related_data:
   show_data: DuroDeployable™ exceeds ACHIH TLVs and OSHA standards and is tested
