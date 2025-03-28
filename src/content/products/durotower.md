@@ -137,6 +137,11 @@ techncal_specification:
 
 
     <!--EndFragment-->
+key_images:
+  image_1: /media/uploads/durotower-thumbnail.jpg
+  image_2: /media/uploads/durotower-thumb.jpg
+  image_3: /media/uploads/hero-durocap.jpg
+  image_4: /media/uploads/dur-201305-february-blog-thumb.jpg
 key_features: >-
   * **DuroTower System**: Revolving airflow system is ten times more energy
   efficient than traditional overhead cleaners, saving energy costs.
