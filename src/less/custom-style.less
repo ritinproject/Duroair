@@ -10050,10 +10050,6 @@ fieldset span {
 
 
 
-
-
-
-
 @media only screen and (min-width: 1200px){
     .container {
         max-width: 1294px !important;
@@ -10075,6 +10071,12 @@ fieldset span {
     }
     .durocap-features-left,.durocap-features-img-col{
         height: 100%;
+    }
+    .event h2 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+        margin: 0 !important;
+        color: var(--primary-color) !important;
     }
 }
 @media only screen and (max-width: 1600px){
@@ -10144,11 +10146,25 @@ fieldset span {
         z-index: -1 !important;
         left: calc(((100% - 1270px)/2)) !important;
     }
-    
+    .event h2 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+        margin: 0 !important;
+        color: var(--primary-color) !important;
+    }
+    .timeline{
+        border-radius: 6px !important;
+    }
 }
 @media only screen and (max-width: 1299px){
     .cstdy-slider-nav-inr-wrp {
         max-height: 800px !important;
+    }
+    .mlstn-inr {
+        margin-left: calc((100% - 1140px)/2);
+    }
+    .event {
+        max-width: 180px;
     }
 }
 @media only screen and (max-width: 1199px){
@@ -10178,7 +10194,7 @@ fieldset span {
         font-size: 32px !important;
         line-height: 1.2 !important;
     }
-    .cmn-about-inr .cmn-about-right .cmn-about-right-inr p {
+    .cmn-about-inr .cmn-about-right .cmn-about-right-inr p,.lagecy-content p, .lagecy-point ul li {
         font-size: 16px !important;
         line-height: 1.3 !important;
     }
@@ -10204,6 +10220,36 @@ fieldset span {
     }
     .slnprt-item-inr,.indsolution-cards-row {
         --bs-gutter-y:24px !important;
+    }
+    .mlstn-inr {
+        margin-left: 0;
+    }
+    .event h2 {
+        font-size: 32px;
+    }
+    .event p {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .event h2 {
+        font-size: 32px;
+    }
+    .event {
+        max-width: 180px;
+    }
+    .mlstn-inr {
+        margin-left: 0;
+    }
+    .event p {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .event:nth-child(3){
+        left: 4%;
+        max-width: 200px;
+    }
+    .event:nth-child(5) {
+        bottom: 12px;
     }
 }
 @media only screen and (max-width: 991px){
@@ -10243,6 +10289,34 @@ fieldset span {
     }
     .industry .transforming-solution-inr .row .transfrom-solution-right{
         flex-direction: row;
+    }
+    .timeline-container {
+        display: flex !important;
+        justify-content: space-between !important;
+        flex-wrap: wrap !important;
+        padding: 120px 0 140px !important;
+        min-width: 1800px !important;
+        margin: 0 !important;
+    }
+    .timeline {
+        width: 100% !important;
+        order: 3 !important;
+        margin: 25px 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+    }
+    .event h2 {
+        font-size: 30px !important;
+    }
+    .event p {
+        font-size: 14px !important;
+        padding: 0 6px 0 0 !important;
+    }
+    .dot {
+        display: none !important;
+    }
+    .event::after,.event:nth-child(3)::after, .event:nth-child(5)::after {
+        display: none !important;
     }
 }
 @media only screen and (max-width: 767px){
@@ -10313,6 +10387,58 @@ fieldset span {
     }
      .case-study-slider-wrp .slick-slide{
         height: 400px !important;
+    }
+
+
+    .page-about-beyond-compliance .beyond-compliance-item-outer {
+        width: calc(50% - 40px) !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-in {
+        gap: 40px !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-item {
+        padding: 20px 12px !important;;
+    }
+    .page-about-beyond-compliance .beyond-compliance-item-icon {
+        width: 100px !important;
+        height: 100px !important;
+        padding: 12px !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-item-icon>*{
+        width: 100% !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-in {
+        margin-top: 20px;
+    }
+    /* .dcap-classification-wrp>.dcap-classification-content>.dcapclfication-table{
+        width: 100% !important;
+        overflow: hidden !important;
+        border: 0 !important;
+        background: transparent !important;
+    }
+    .dcap-classification-wrp>.dcap-classification-content>.dcapclfication-table>.dcap-classification-wrp>.dcap-classification-content>.dcapclfication-table{
+        overflow-x: auto !important;
+    } */
+    .segment:nth-child(1) {
+        flex-grow: 1.5 !important;
+    }
+    .timeline-container {
+        min-width: 1700px !important;
+    }
+    .event:nth-child(3),.event:nth-child(2) {
+        left: 0 !important;
+    }
+    .event:nth-child(4) ,.event:nth-child(5){
+        left: 14% !important;
+    }
+    .event:nth-child(7) {
+        left: 24% !important;
+    }
+    .segment:nth-child(2), .segment:nth-child(3) {
+        display: flex !important;
+    }
+    .event:nth-child(odd), .event:nth-child(odd) h2{
+        text-align: left !important;
     }
 }
 @media only screen and (max-width: 575px){
@@ -10412,6 +10538,15 @@ fieldset span {
         gap: 24px 0;
         margin: 0;
     }
+    .specialised-sec .gr-brdr img,.specialised-sec .gr-brdr,.durocap-features-img-col .dcapfture-img img{
+        width: 100% !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-item-outer {
+        width: 100% !important;
+    }
+    .page-about-beyond-compliance .beyond-compliance-in {
+        gap: 40px 0 !important;
+    }
 }
 @media only screen and (max-width: 479px){
     .contact-us-right-inr form fieldset{
@@ -10504,6 +10639,30 @@ fieldset span {
     .transfromsl-img-wrp:first-child {
         padding: 20px 0 0;
     }
+
+
+    .inpt-grp-wrp .input-grp{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+    .lagecy-right-imges .img-2 {
+        max-height: 160px !important;
+        max-width: 200px !important;
+    }
+    .lagecy-img-wrp{
+        border-radius: 15px !important;
+    }
+    .lagecy-right-imges {
+        padding-bottom: 40px !important;
+        padding-left: 30px !important;
+    }
+    .lagecy-inr-row {
+        flex-direction: column-reverse !important;
+        --bs-gutter-y: 24px !important;
+    }
+    .lagecy-right {
+        padding-left: 0 !important;
+    }
 }
 @media only screen and (max-width: 375px){
     .we-provide-cards-row.row.cstmwidth .we-provide-right-img video,.responsive-requirements-image video{
@@ -10517,5 +10676,13 @@ fieldset span {
     }
      .csstdy-slider-item.slick-slide.slick-active,  .csstdy-slider-item.slick-slide.slick-current.slick-active,  .csstdy-slider-item.slick-slide {
         height: 180px !important;
+    }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) and (min-width: 769px) {
+    .jumbotron-headline>span{
+        animation: none !important;
     }
 }
