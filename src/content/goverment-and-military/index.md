@@ -61,25 +61,8 @@ dod_section:
       Each system can be engineered to accommodate large components for jets,
       MRAPs, or submarines, creating a cost-effective alternative to
       conventional systems.
-  child_center_sec:
-    dod_center_head: Ensure Service Member Health & Safety
-    description: >-
-      * Protection is tested, verified, and confirmed by the DCPH-A.
-
-      * Mitigate exposure to hexavalent chromium, isocyanates, heavy metals, and VOCs. Meets the HQDA mandate.
-
-      * Isolate toxic processes from other service members in a shared space.
-
-      * Systems meet CFM requirements. VFD allows for control of airflow. Airflow is 100 FPM. At these air speeds the requirement for less than 25% LEL is met.
-
-      * Each system is monitored to verify OSHA limits are maintained.
-
-      * OSHA, ACGIH, NFPA Compliant.
   child_right_sec:
-    - dod_right_head: Reduce Maintenance Costs
-      btn: Read More
-    - dod_right_head: Increase Operational Readiness
-      btn: Read More
+    
 flexibility:
   - heading: "Use DuroRoom Containment to:"
     description: >-
