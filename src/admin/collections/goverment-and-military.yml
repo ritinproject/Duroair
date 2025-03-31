@@ -26,7 +26,7 @@
           widget: object
           fields:
             - {label: Heading, name: dod_left_head, widget: string}
-            - {label: Description, name: dod_desc, widget: markdown}
+            - {label: Description, name: dod_desc, widget: markdown} 
         - name: child_right_sec
           label: Child Right Section
           widget: list
