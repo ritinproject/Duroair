@@ -187,7 +187,7 @@
                                 <div class="specialised-card-content">
                                     <div class="spcl-card-content-inr">
                                         <h3><a href="/{{ item.path }}">{{ item.title }}</a></h3>
-                                        <p>{{ item.short_description }}</p>
+                                        <p>{{ item.short_description |md  }}</p>
                                     </div>
                                     <a href="/{{ item.path }}">Learn more</a>
                                 </div>
