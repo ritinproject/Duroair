@@ -13,16 +13,21 @@ document.addEventListener("DOMContentLoaded", function () {
     let breadcrumbHTML = `<a href="/">Home</a>`;
     let path = "";
 
+    function formatText(text) {
+        return text
+            .replace(/-/g, " ") // Replace hyphens with spaces
+            .replace(/\bSolutions\b/g, "Applications") // Change "Solution" to "Application"
+            .split(" ") // Split into words
+            .map(word => (word.toLowerCase() === "and" ? "and" : word.charAt(0).toUpperCase() + word.slice(1))) // Capitalize except "and"
+            .join(" "); // Rejoin words
+    }
+
     pathArray.forEach((segment, index) => {
-        // Ignore numbers (pagination) and single blog post titles
         if (!isNaN(segment) || (pathArray[0] === "blog" && index > 0)) return;
 
         path += `/${segment}`;
         const isLast = index === pathArray.length - 1;
-        let text = decodeURIComponent(segment)
-                        .replace(/-/g, " ")  // Replace hyphens with spaces
-                        .replace(/\bAnd\b/gi, "and") // Make "And" lowercase
-                        .replace(/\bSolution\b/g, "Application"); // Change "Solution" to "Application"
+        const text = formatText(decodeURIComponent(segment));
 
         breadcrumbHTML += ` &raquo; ${
             isLast ? `<span>${text}</span>` : `<a href="${path}/">${text}</a>`
@@ -31,7 +36,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     breadcrumbContainer.innerHTML = breadcrumbHTML;
 });
-
-
-
-
