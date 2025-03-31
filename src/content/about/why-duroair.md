@@ -131,7 +131,7 @@ air_system:
     photocatalytic oxidation (PCO) and UV light to separate and <br> destroy
     VOCs. Carbon adsorbs contaminants and UV light destroys VOCs.
   efficient:
-    number_1: "99.99"
+    number_1: "99"
     description_6: "percent of airborne particulates are safely captured and
       destroyed by the system through these stages, including:"
     heading_6: Hexavalent chromium, Isocyanates, Volatile Organic Compounds
