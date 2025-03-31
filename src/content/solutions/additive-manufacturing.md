@@ -46,25 +46,26 @@ copy_block_2: >-
   ### Technical Specifications
 
 
-  - [DuroTower™ with enhanced multi-stage filtration](/products/durotower):
+  [DuroTower™ with enhanced multi-stage filtration](/products/durotower):
 
-  - 8,000 – 30,000 CFM design range
 
-  - Small footprint: 40” x 50”
+  * 8,000 – 30,000 CFM design range
 
-  - Available height options of 11’ or 14’ depending on plant layout
+  * Small footprint: 40” x 50”
 
-  - Power: Three phase 208-230/460 volt
+  * Available height options of 11’ or 14’ depending on plant layout
 
-  - Enhanced multiple filter stages to collect particulates, as well as VOC reduction for various contaminant situations 
+  * Power: Three phase 208-230/460 volt
 
-  - 10 and 16 gauge welded steel construction
+  * Enhanced multiple filter stages to collect particulates, as well as VOC reduction for various contaminant situations 
 
-  - Industrial enamel finish
+  * 10 and 16 gauge welded steel construction
 
-  - Easy two-section installation
+  * Industrial enamel finish
 
-  - Can be used with a DuroRoom™ for effective clean room, isolation room, or dust collection applications
+  * Easy two-section installation
+
+  * Can be used with a DuroRoom™ for effective clean room, isolation room, or dust collection applications
 compliance:
   - code: OSHA
     description: Exceeds OSHA requirement of 25 μg/m3
