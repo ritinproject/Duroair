@@ -3,10 +3,14 @@
                     <div class="dcapclfication-table">
                         <table>
                             <tbody>
+                                <tr>
+                                    <td><strog>Code Compliance</strong></td>
+                                    <td><strong>Code Description</strong></td>
+                                </tr>
                                 {%- for item in compliance -%}
                                 <tr>
                                     <td><strong>{{item.code}}</strong></td>
-                                    <td>{{item.description}}</td>
+                                    <td>{{item.description | md }}</td>
                                 </tr>
                                 {%- endfor -%}
                             </tbody>
