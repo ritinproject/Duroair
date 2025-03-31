@@ -38,7 +38,7 @@ copy_block_list: >-
 
   * Protection for 3D printing integrity and quality, without contamination from corrosive dust and hazardous fumes
 copy_block_1: >-
-  ### **Protect Your 3D Printing Operations With Air Filters For Dust**
+  ### Protect Your 3D Printing Operations With Air Filters For Dust
 
 
   Duroair can engineer industrial air filtration systems for specific additive manufacturing processes, such as prototyping aircraft components for aerospace and aviation. Armed with this technology, manufacturers can use 3D printing to innovate, without exposing facility employees to dust and gaseous particulates that can threaten safety and productivity.

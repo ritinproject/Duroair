@@ -11,7 +11,7 @@ show_in_menu: "true"
 layout: solution.njk
 thumbnail: /img/thumbs/hero-nondestructivetesting.jpg
 image_1: /img/image-1-nondestructivetesting.jpg
-image_2: /img/image-2-nondestructivetesting.jpg
+image_2: /media/uploads/hww-abt-img-2.png
 image_3: /img/image-3-nondestructivetesting.png
 short_description: Conduct climate-controlled testing with true UV containment.
 intro:
@@ -37,7 +37,7 @@ copy_block_list: >-
 
   * Easy access for overhead crane loading and unloading or other material handling
 copy_block_1: >-
-  ### **UV-Protected Modular Clean Room For Non-Destructive Testing**
+  ### UV-Protected Modular Clean Room For Non-Destructive Testing
 
 
   Duroair can combine [DuroRoom™](/products/duroroom) with our [DuroCap™](/products/durocap), [DuroDust™](/products/durodust), and DuroClean™ engineered exhaust systems, if required, into one cost-effective, UV-protected enclosure for easy-access, non-destructive testing. 
