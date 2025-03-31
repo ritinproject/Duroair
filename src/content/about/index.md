@@ -57,7 +57,7 @@ a_nederman_company:
     Learn more at [nedermangroup.com](https://nedermangroup.com/)
 our_experties:
   - heading: Innovating Purposeful Clean-Air Solutions
-    image: /media/uploads/dur-221401-march-blog1-img.jpg
+    image: /media/uploads/about-duroair-making-the-business-case-for-clean-air.jpg
     description: >-
       Never satisfied with the status quo, we’re always searching for new
       technology and methods for purposeful innovation to help you create a
@@ -81,7 +81,7 @@ our_experties:
       * **Portable containment:** The DuroRoom™ softwall enclosure is also available as a portable containment solution. It retracts to 20% of its extended length to accommodate overhead cranes and to save space when not in use. This portability addresses workflow and footprint problems that cost time and money,
 
       * **Plug and Play containment:** Our DuroDeployable™ is the generator-ready paint booth for rapid, Plug and Play deployment. We developed it by combining the DuroRoom softwall, retractable enclosure and the DuroPure™ air filtration system for safe, compliant spray operations in garrison or while deployed.
-    image: /media/uploads/dur-201314-november-1-img-2.jpg
+    image: /media/uploads/duroroom-and-duroclean-.jpg
   - heading: Clean-Air Flexibility for Material Handling
     description: >-
       From submarine propulsion systems to aerospace and aviation components, we
@@ -94,7 +94,7 @@ our_experties:
       * **Reducing equipment expenses:** In some cases, a portable containment solution allows you to take clean air to each workpiece, which can eliminate the need for expensive overhead cranes or conveyors to move workpieces.
 
       * **Increasing facility/labor ROI:** Time-consuming material handling can eat into your profits because it ties up facility floor space and labor. Duroair’s clean-air solutions can retract to store when not in use. This minimizes space and labor required for material handling, enabling you to take on additional, more profitable projects in-house.
-    image: /media/uploads/key-features-pushing-enclosure-into-sea-can.webp
+    image: /media/uploads/full-room-from-exhaust.jpg
   - heading: Patented Industrial Air Filtration Technology
     description: >-
       Complex containment requires multiple stages of industrial filtration to
@@ -108,7 +108,7 @@ our_experties:
       * This patented technology pairs with our **DuroRoom** containment systems to create a clean-air envelope around each workpiece, for a contaminant-free, portable workstation. It also pairs with our patented, Taper Draft Airflow technology that goes beyond traditional cross drafts by creating indoor environments that are so clean, they exceed OSHA compliance requirements.
 
       * **DuroRoom** meets/exceeds CFM requirements, from 13,500 CFM to 200,000 CFM and beyond, to achieve airflow over 100 FPM at the intake filter face and ensure airflow remains below code requirements of 25% of the LEL (lower explosion limit). It’s also been tested by the Defense Centers for Public Health – Aberdeen (DCPH-A) and verified by Army Engineers and Industrial Hygienists.
-    image: /media/uploads/DUR-201314-thumb.jpg
+    image: /media/uploads/img_20160622_080959.jpg
 image_1: /img/image-1-about2.jpg
 copy_block_1: >-
   ### Innovating Industrial Clean Air Solutions
