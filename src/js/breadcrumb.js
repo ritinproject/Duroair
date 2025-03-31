@@ -19,15 +19,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
         path += `/${segment}`;
         const isLast = index === pathArray.length - 1;
+        let text = decodeURIComponent(segment)
+                        .replace(/-/g, " ")  // Replace hyphens with spaces
+                        .replace(/\bAnd\b/gi, "and") // Make "And" lowercase
+                        .replace(/\bSolution\b/g, "Application"); // Change "Solution" to "Application"
+
         breadcrumbHTML += ` &raquo; ${
-            isLast
-                ? `<span>${decodeURIComponent(segment)}</span>`
-                : `<a href="${path}/">${decodeURIComponent(segment)}</a>`
+            isLast ? `<span>${text}</span>` : `<a href="${path}/">${text}</a>`
         }`;
     });
 
     breadcrumbContainer.innerHTML = breadcrumbHTML;
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
