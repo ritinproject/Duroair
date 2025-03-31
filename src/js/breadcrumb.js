@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return text
             .replace(/-/g, " ") // Replace hyphens with spaces
             .replace(/\bsolutions\b/g, "Applications") // Change "Solution" to "Application"
+            .replace(/\bfaq\b/g, "FAQ") // Change "Solution" to "Application"
             .split(" ") // Split into words
             .map(word => (word.toLowerCase() === "and" ? "and" : word.charAt(0).toUpperCase() + word.slice(1))) // Capitalize except "and"
             .join(" "); // Rejoin words
