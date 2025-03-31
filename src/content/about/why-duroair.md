@@ -191,7 +191,7 @@ ingenuity:
     - heading_13: 2-1 ratio for two operations.
       description_13: This can eliminate or reduce backlogs, especially since some
         functions require more time than others.
-      image_9: /media/uploads/1-1-1-2.png
+      image_9: /media/uploads/2-1.jpg
     - heading_13: 1 single operation in the entire space.
       description_13: This accommodates a larger workpiece, such as the wing of an
         aircraft, an entire wind turbine, or a large engine workpiece.
