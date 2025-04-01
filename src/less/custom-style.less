@@ -9790,6 +9790,19 @@ fieldset span {
 .lagecy-content{
     padding-right: 25px;
 }
+
+.sec-head h2:after {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 4px;
+    background-color: var(--primary-color);
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
 .lagecy-sec{
     padding: 153px 0 117px;
 }
@@ -10039,22 +10052,22 @@ fieldset span {
     font-size: 40px;
     font-weight: 600;
     color: var(--primary-color);
-    background: var(--bs-white);
+    // background: var(--bs-white);
     padding: 0 35px;
     display: inline-block;
 }
 .sec-head h2::before{
-    content: "";
     position: absolute;
-    width: 100%;
+    width: 30%;
     height: 4px;
     background-color: var(--primary-color);
-    left: 0;
+    left: 0px;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
     z-index: -1;
 }
+
 .milestones-sec{
     padding: 127px 0;
 }
