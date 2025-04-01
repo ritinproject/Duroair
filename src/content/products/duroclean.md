@@ -1,8 +1,10 @@
 ---
 title: DuroClean™
 seo:
-  ? description
-  ? page_title
+  description: DuroClean
+  page_title: DuroClean
+jumbotron:
+  img: /media/uploads/DuroClean 1.jpeg
 layout: product.njk
 product_image: /media/uploads/duro-clean-2.jpg
 product_intro:
@@ -126,25 +128,22 @@ image_2: /media/uploads/duroclean-1.jpg
 related_solutions:
   - Clean Rooms
 g&m_related_data:
-  show_data: Pair DuroClean™ with DuroRoom for on-demand clean rooms and isolation
-    rooms whenever and wherever needed.
+  show_data: >-
+    <!--StartFragment-->
+
+
+    Pair DuroClean™ with DuroRoom for on-demand clean rooms and isolation rooms whenever and wherever needed.
+
+
+    <!--EndFragment-->
   hide_data: >-
-    DuroRooms isolate and contain a hazard created during a manufacturing and
-    maintenance process or protect a process from external contamination. All
-    systems are custom-designed to a customer’s requirements including:
+    <!--StartFragment-->
 
 
-    * H’ x W’ x L’
+    The DuroClean exhaust system filters air to an ISO 6 standard to create portable clean rooms or isolation rooms for mechanical assembly, additive manufacturing, R&D, and other processes requiring a clean environment. It’s a flexible, cost-effective solution to facilitating material handling challenges.
 
-    * Temperature and humidity
 
-    * Lighting foot-candle/lumens
-
-    * Filtration requirement
-
-    * Positive, negative, or neutral pressure
-
-    * Fire suppression requirements
+    <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroClean™ System.pdf
 btn_label: DOWNLOAD FACT SHEET
 technical_specifications: >-
