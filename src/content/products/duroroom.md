@@ -218,7 +218,7 @@ g&m_related_data:
 
     * Fire suppression requirements
 brochure: /media/uploads/Duroair DuroRoom™ System W.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Modular design in 5’-0” or 6’-0” increments, with sizes up to 50’-0” high
   and 65’-0” wide with unlimited linear length.
