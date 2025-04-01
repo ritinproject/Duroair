@@ -2144,7 +2144,7 @@ a.button {
     border: 2px solid var(--secondary-color);
     border-radius: 30px;
     padding: 55px 22px;
-    // background: var(--bs-white);
+    background: var(--bs-white);
 }
 .indcstm-left .sec-inr-head,.indcstm-left .sec-inr-head p{
     margin: 0;
@@ -2154,20 +2154,6 @@ a.button {
     font-weight: 500;
     color: #353535;
 }
-
-.goverment-and-military{
-
-    .sec-head h2:after {
-        content: '';
-        position: absolute;
-        width: 25%;
-        height: 4px;
-        background-color: var(--primary-color);
-        right: 0;
-        top: 50%;
-    }
-}
-
 .indcstm-left .sec-inr-head h2{
     margin-bottom: 20px;
 }
@@ -9804,19 +9790,6 @@ fieldset span {
 .lagecy-content{
     padding-right: 25px;
 }
-
-.sec-head h2:after {
-    content: '';
-    position: absolute;
-    width: 30%;
-    height: 4px;
-    background-color: var(--primary-color);
-    right: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-}
-
 .lagecy-sec{
     padding: 153px 0 117px;
 }
@@ -10066,22 +10039,22 @@ fieldset span {
     font-size: 40px;
     font-weight: 600;
     color: var(--primary-color);
-    // background: var(--bs-white);
+    background: var(--bs-white);
     padding: 0 35px;
     display: inline-block;
 }
 .sec-head h2::before{
+    content: "";
     position: absolute;
-    width: 30%;
+    width: 100%;
     height: 4px;
     background-color: var(--primary-color);
-    left: 0px;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
     z-index: -1;
 }
-
 .milestones-sec{
     padding: 127px 0;
 }
