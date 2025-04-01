@@ -5,7 +5,7 @@ seo:
     controlled, compliant environment for painting and other military MRO in
     garrison or while deployed.
   page_title: DuroDeployable™
-  noindex: false
+  noindex: true
 jumbotron:
   headline: DuroDeployable™
   img: /media/uploads/features-1-using-generator-durodeployable.webp
