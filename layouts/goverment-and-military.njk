@@ -51,19 +51,6 @@
                         </div>
                         <div class="col-lg-7 dod-right-wrp">
                             <div class="dod-right">
-                                <!-- Main Section: Show First List Item Initially -->
-                                <div class="dod-card-wrp">
-                                    <div class="dod-card">
-                                        <div class="dod-card-head">
-                                            <h3 id="dod-main-head">
-                                                {{ dod_section.child_right_sec[0].dod_right_head }}
-                                            </h3>
-                                        </div>
-                                        <div class="dod-card-body" id="dod-main-body">
-                                            {{ dod_section.child_right_sec[0].description | md }} 
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <!-- Small Cards: Dynamically Generated from List Widget --> 
                                 <div class="dod-small-cards-wrp">
@@ -84,6 +71,22 @@
                                         </div>
                                     {%- endfor -%}
                                 </div>
+                                
+                                <!-- Main Section: Show First List Item Initially -->
+                                <div class="dod-card-wrp">
+                                    <div class="dod-card">
+                                        <div class="dod-card-head">
+                                            <h3 id="dod-main-head">
+                                                {{ dod_section.child_right_sec[0].dod_right_head }}
+                                            </h3>
+                                        </div>
+                                        <div class="dod-card-body" id="dod-main-body">
+                                            {{ dod_section.child_right_sec[0].description | md }} 
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
                             </div>
                         </div>
                     </div>
