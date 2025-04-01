@@ -71,7 +71,7 @@
                                         </div>
                                     {%- endfor -%}
                                 </div>
-
+                                
                                 <!-- Main Section: Show First List Item Initially -->
                                 <div class="dod-card-wrp">
                                     <div class="dod-card">
@@ -143,7 +143,7 @@
                     </div>
 
                     <div class="mro-needs-cards">
-                    {%- for p in solution_section.gm_related_products -%}
+                    {%- for p in related_products -%}
                     {%- set item = p | findByField('title', products) -%}
                     {%- if item and item.title and item.thumbnail -%}
                         <div class="mro-needs-card">
