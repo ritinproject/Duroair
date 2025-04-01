@@ -120,10 +120,10 @@ new_key_features:
 
       * Additional noise reduction is available with tectum panels composed of aspen wood fibers and a hydraulic cement binder.
 key_images:
-  image_1: /media/uploads/custom_hard-walled_clean_room.jpg
-  image_2: /media/uploads/hard-wall-2-drawing.webp
-  image_3: /media/uploads/dur2023_q3blogmitigate_400x208.87-cleanfacility.png
-  image_4: /media/uploads/dur_dec2020_blog_02-thumb.jpg
+  image_1: /media/uploads/features-1-roll-up-door.jpg
+  image_2: /media/uploads/features-2-pass-through.jpg
+  image_3: /media/uploads/features-3-roll-up-door-and-lights.jpg
+  image_4: /media/uploads/hero_how-it-works-image-outside-of-hardwall-clean-room.jpg
 key_features: >-
   **Extra capacity and modularity**
     * Up to 50’ high with unlimited width and length and can connect to an existing building and facility infrastructure.
@@ -137,10 +137,12 @@ key_features: >-
 
 
 
+
     
   **More options for windows, pass-throughs, and doors**
     * Accommodates multiple hard-wall pass-throughs and roll-up doors with easy-to-clean fabric for access ports. Allows items to pass through without having to exit and reenter the clean room, thereby de-risking contamination.
     * Multiple window types and thicknesses are available with door options that include airlock entries, man doors, rollup doors, and open face.
+
 
 
 
