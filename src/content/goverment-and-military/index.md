@@ -188,11 +188,6 @@ top_10_section:
         use by the military. The system is plug and play and can be deployed
         where needed.
       child_head: Protection of Service Members
-    - child_head: Protection of Service Members
-      child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
     - child_desc: Our systems are deployable capital equipment. They can be designed
         to be compatible with Deployable Rapid Assembly Shelters currently in
         use by the military. The system is plug and play and can be deployed
