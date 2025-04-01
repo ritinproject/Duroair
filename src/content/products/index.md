@@ -38,7 +38,7 @@ section_2:
     Our clean air systems work with [Taper Draft Airflow Technology](/products/taper-draft-airflow-technology) that goes beyond traditional cross drafts by creating indoor environments that are so clean, they exceed OSHA compliance requirements.
 enclosures:
   headline: Enclosures & Workstations
-  copy: Every DuroAir retractable, soft-walled enclosure and modular hard-walled
+  copy: Every Duroair retractable, soft-walled enclosure and modular hard-walled
     enclosure is customizable for more agile and efficient manufacturing and
     maintenance workflows. These may include hard-walled ISO clean rooms for
     assemblies or soft-walled portable spray and paint booths that can
