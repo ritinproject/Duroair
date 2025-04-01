@@ -33,8 +33,7 @@ image_1: /media/uploads/durotable.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    <!--StartFragment-->
-
+    
 
     * Two 5 HP Blowers
 
@@ -50,9 +49,6 @@ techncal_specification:
       * 4th stage: MERV 15-16 NESHAP 319 up to and including to HEPA
 
     For ISO classifications and other technical information, download our DuroTable fact sheet!
-
-
-    <!--EndFragment-->
 new_key_features:
   - heading: Custom Tabletop Sizes
     description: >-
