@@ -50,72 +50,6 @@ gm_intro:
 
     Plus, Duroair's flexible, modular, and retractable solutions are more affordable than designated paint rooms and work spaces and move with military maintenance workflows. They're a cost-effective way to facility material handling challenges associated with coating operations, surface prep, mechanical assembly, isolation rooms, NDT, dust collection, and ISO clean rooms.
   intro_image: /media/uploads/govt-page-abt-img.png
-dod_section:
-  child_left_sec:
-    dod_left_head: Designed Around DOD Maintenance Requirements for Cost,
-      Operational Readiness, and Safety
-    dod_desc: Our modular, industrial air filtration systems bring clean air to each
-      rapid-moving, military manufacturing operation. For example, our
-      retractable DuroRoom™ combined with our DuroPure™ non-vented air
-      filtration easily moves with grinding, painting, or sanding assignments.
-      Each system can be engineered to accommodate large components for jets,
-      MRAPs, or submarines, creating a cost-effective alternative to
-      conventional systems.
-  child_right_sec:
-    - btn: Read More
-      dod_right_head: Ensure Service Member Health & Safety
-      description: >-
-        <!--StartFragment-->
-
-
-        * Protection is tested, verified, and confirmed by the DCPH-A.
-
-        * Mitigate exposure to hexavalent chromium, isocyanates, heavy metals, and VOCs. Meets the HQDA mandate.
-
-        * Isolate toxic processes from other service members in a shared space.
-
-        * Systems meet CFM requirements. VFD allows for control of airflow. Airflow is 100 FPM. At these air speeds the requirement for less than 25% LEL is met.
-
-        * Each system is monitored to verify OSHA limits are maintained.
-
-        * OSHA, ACGIH, NFPA Compliant.
-
-
-        <!--EndFragment-->
-    - dod_right_head: Reduce Maintenance Costs
-      description: >-
-        <!--StartFragment-->
-
-
-        * One system for multiple processes saves valuable floor space.
-
-        * Systems are retractable when not in use. Space can be used for other operations, rather than a designated space for maintenance.
-
-        * No extra square footage is required.
-
-        * Eliminate outsourcing costs. Move work in-house and increase security and flexibility — capitalizing on trained personnel.
-
-        * Retrofit older leased facilities into maintenance workspaces without infrastructure investment.
-
-        * Reduce energy costs. Recirculate clean, filtered air into the workspace. No venting to the exterior is required.
-
-
-        <!--EndFragment-->
-      btn: Read More
-    - dod_right_head: Increase Operational Readiness
-      description: >-
-        <!--StartFragment-->
-
-
-        * Brings MRO in house to increase operational readiness and reduce downtime.
-
-        * Deployment-ready solutions are available.
-
-        * Each Duroair portable solution is plug and play. The clean air systems are on wheels and can be moved anywhere inside a hangar space or deployed.
-
-
-        <!--EndFragment-->
-      btn: Read More
 flexibility:
   - heading: "Use DuroRoom Containment to:"
     description: >-
@@ -159,18 +93,6 @@ flexibility:
 
       * Each system is monitored.
     image: /media/uploads/duropure-filtration.png
-solution_section:
-  solution_haed: Specialized Solutions for Your MRO Needs
-  related_products:
-    - DuroDeployable™
-    - DuroClean™
-    - DuroRoom™
-    - DuroPure™
-    - DuroCap™
-    - DuroDust™
-    - DuroCollector™
-casestudy_section:
-  case_study_haed: "Real-World Success: Military Case Studies"
 top_10_section:
   sec_heading: TOP 10 Ways Duroair Supports Mission-Critical Readiness for Military Bases
   sec_description: Between manufacturing, MRO, and prototyping, you don’t have
@@ -302,6 +224,83 @@ testimonial:
     - DuroTower™
     - OMW
     - Taper Draft Airflow Technology
+casestudy_section:
+  case_study_haed: "Real-World Success: Military Case Studies"
+dod_section:
+  child_left_sec:
+    dod_left_head: Designed Around DOD Maintenance Requirements for Cost,
+      Operational Readiness, and Safety
+    dod_desc: Our modular, industrial air filtration systems bring clean air to each
+      rapid-moving, military manufacturing operation. For example, our
+      retractable DuroRoom™ combined with our DuroPure™ non-vented air
+      filtration easily moves with grinding, painting, or sanding assignments.
+      Each system can be engineered to accommodate large components for jets,
+      MRAPs, or submarines, creating a cost-effective alternative to
+      conventional systems.
+  child_right_sec:
+    - btn: Read More
+      dod_right_head: Ensure Service Member Health & Safety
+      description: >-
+        <!--StartFragment-->
+
+
+        * Protection is tested, verified, and confirmed by the DCPH-A.
+
+        * Mitigate exposure to hexavalent chromium, isocyanates, heavy metals, and VOCs. Meets the HQDA mandate.
+
+        * Isolate toxic processes from other service members in a shared space.
+
+        * Systems meet CFM requirements. VFD allows for control of airflow. Airflow is 100 FPM. At these air speeds the requirement for less than 25% LEL is met.
+
+        * Each system is monitored to verify OSHA limits are maintained.
+
+        * OSHA, ACGIH, NFPA Compliant.
+
+
+        <!--EndFragment-->
+    - dod_right_head: Reduce Maintenance Costs
+      description: >-
+        <!--StartFragment-->
+
+
+        * One system for multiple processes saves valuable floor space.
+
+        * Systems are retractable when not in use. Space can be used for other operations, rather than a designated space for maintenance.
+
+        * No extra square footage is required.
+
+        * Eliminate outsourcing costs. Move work in-house and increase security and flexibility — capitalizing on trained personnel.
+
+        * Retrofit older leased facilities into maintenance workspaces without infrastructure investment.
+
+        * Reduce energy costs. Recirculate clean, filtered air into the workspace. No venting to the exterior is required.
+
+
+        <!--EndFragment-->
+      btn: Read More
+    - dod_right_head: Increase Operational Readiness
+      description: >-
+        <!--StartFragment-->
+
+
+        * Brings MRO in house to increase operational readiness and reduce downtime.
+
+        * Deployment-ready solutions are available.
+
+        * Each Duroair portable solution is plug and play. The clean air systems are on wheels and can be moved anywhere inside a hangar space or deployed.
+
+
+        <!--EndFragment-->
+      btn: Read More
+solution_section:
+  solution_haed: Specialized Solutions for Your MRO Needs
+  related_products:
+    - DuroClean™
+    - DuroRoom™
+    - DuroPure™
+    - DuroCap™
+    - DuroDust™
+    - DuroDeployable™
 ---
 ### Engineered Clean Air Solutions to Keep You On Schedule
 
