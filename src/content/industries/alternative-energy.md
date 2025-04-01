@@ -46,7 +46,7 @@ cta:
     bottom-line results in your alternative energy facility.
   headline: Clean Air, Clear Solutions. Let's Talk!
 ---
-### **Clean Air Technologies Engineered For Alternative Energy**
+### Clean Air Technologies Engineered For Alternative Energy
 
 Environmental control is easier said than done when you’re manufacturing alternative energy solutions. Humidity, temperature fluctuations, and dust can corrode your copper solar panel or battery components. Metal finishing, coating, or painting containment is a daunting task when working with behemoth turbine bases and blades.
 
