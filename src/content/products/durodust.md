@@ -32,7 +32,8 @@ image_1: /media/uploads/duro-dust-3-stone-cutting.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    
+    <!--StartFragment-->
+
 
     * 13,500 – 200,000 CFM design range
 
@@ -54,6 +55,9 @@ techncal_specification:
 
 
     For other technical information, download our DuroDust fact sheet!
+
+
+    <!--EndFragment-->
 new_key_features:
   - heading: "Negative pressure:"
     description: |-
