@@ -168,6 +168,9 @@ solution_section:
     - DuroPure™
     - DuroCap™
     - DuroDust™
+    - DuroCollector™
+casestudy_section:
+  case_study_haed: "Real-World Success: Military Case Studies"
 top_10_section:
   sec_heading: TOP 10 Ways Duroair Supports Mission-Critical Readiness for Military Bases
   sec_description: Between manufacturing, MRO, and prototyping, you don’t have
