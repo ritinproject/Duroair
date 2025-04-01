@@ -42,8 +42,7 @@ image_1: /img/image-2-duroroom.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    <!--StartFragment-->
-
+    
 
     * Modular design in 5’-0” or 6’-0” increments, with sizes up to 50’-0” high and 65’-0” wide with unlimited linear length.
 
@@ -56,7 +55,7 @@ techncal_specification:
     * All vinyl NFPA 701 compliant, with clear, opaque, and custom options available.
 
 
-    <!--EndFragment-->
+    For ISO classifications and other technical information, download our DuroRoom fact sheet!
 new_key_features:
   - heading: "Taper Draft Airflow Technology: "
     description: >-
@@ -219,7 +218,7 @@ g&m_related_data:
 
     * Fire suppression requirements
 brochure: /media/uploads/Duroair DuroRoom™ System W.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Modular design in 5’-0” or 6’-0” increments, with sizes up to 50’-0” high
   and 65’-0” wide with unlimited linear length.

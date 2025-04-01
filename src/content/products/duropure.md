@@ -29,8 +29,7 @@ image_1: /media/uploads/duropure-image-2.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    <!--StartFragment-->
-
+    
 
     * Patented filtration is created using a unique configuration of panel, pocket dual pleat , V bank, UV and carbon filters.
 
@@ -50,9 +49,6 @@ techncal_specification:
 
 
     For ISO classifications and other technical information, download our DuroPure fact sheet!
-
-
-    <!--EndFragment-->
 new_key_features:
   - heading: "Patented Six-Stage Filtration:"
     description: >-
@@ -212,7 +208,7 @@ g&m_related_data:
 
     <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroPure™ System W.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Patented filtration is created using a unique configuration of panel, pocket
   dual pleat , V bank, UV and carbon filters.

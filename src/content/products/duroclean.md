@@ -121,7 +121,7 @@ key_features: >-
   * **Airflow Options**:   Laminar or unidirectional airflow systems, as well as turbulent or non-unidirectional airflow systems.
 
   * **Air Changes Per Hour (ACH)**: Combines air changes per hour (ACH) with filtered air circulating into the cleanroom many times per hour (designed to meet ISO classifications).
-image_2: /media/uploads/duroclean-1.jpg
+image_2: /media/uploads/3.png
 related_solutions:
   - Clean Rooms
 g&m_related_data:
