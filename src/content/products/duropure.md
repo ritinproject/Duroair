@@ -194,6 +194,23 @@ compliance:
     description: spray finishing requirements - Electrical CSA Certified
   - code: OSHA silica
     description: standard for general industry
+g&m_related_data:
+  show_data: >-
+    <!--StartFragment-->
+
+
+    DuroPure recirculating exhaust units are used for coating and surface preparation applications. It does not require ducting or ventilation and does not require changes to infrastructure.
+
+
+    <!--EndFragment-->
+  hide_data: >-
+    <!--StartFragment-->
+
+
+    This patented, recirculating, non-vented, indoor air filtration is ideal for coating and surface preparation that captures 99+ % of airborne particulates like hexavalent chromium, heavy metals, volatile organic compounds (VOCs), and isocyanates. DuroPure recirculates clean air back into the workspace. The system has extensive 3rd party testing and is Defense Centers for Public Health – Aberdeen (DCPH-A) confirmed and verified. Exceeds NESHAP 319 requirements.
+
+
+    <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroPure™ System W.pdf
 btn_label: DOWNLOAD FACT SHEET
 technical_specifications: >-
