@@ -108,7 +108,7 @@ new_key_features:
 
       <!--EndFragment-->
 key_images:
-  image_1: /media/uploads/features-1-using-generator-durodeployable.webp
+  image_1: /media/uploads/moving-durodeployable-enclosure-into-shop.jpg
   image_2: /media/uploads/final-touches-setting-up-durodeployable.jpg
   image_3: /media/uploads/loading-duropure-for-durodeployable.jpg
   image_4: /media/uploads/features-plug-and-play.jpg
