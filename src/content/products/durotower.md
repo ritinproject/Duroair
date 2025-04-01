@@ -69,10 +69,10 @@ new_key_features:
 
       <!--EndFragment-->
 key_images:
-  image_1: /media/uploads/durotower-thumbnail.jpg
-  image_2: /media/uploads/durotower-thumb.jpg
-  image_3: /media/uploads/hero-durocap.jpg
-  image_4: /media/uploads/dur-201305-february-blog-thumb.jpg
+  image_1: /media/uploads/8-000-cfm-durotower.jpg
+  image_2: /media/uploads/15-000-cfm-durotower.jpg
+  image_3: /media/uploads/durotower-emergency-stop.jpg
+  image_4: /media/uploads/welding-with-durotower-in-the-background-2-.jpg
 image_2: /img/image-3-durotower.jpg
 related_solutions:
   - Dust Collection
