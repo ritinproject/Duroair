@@ -15,7 +15,7 @@ jumbotron:
 layout: product.njk
 product_image: /img/image-1-durocap.jpg
 product_intro:
-  heading: Clean Shop Air for the Entire Floor
+  heading: DuroCap™
   description: >-
     DuroCap™ is the vented, modular, air filtration system that’s easily
     customizable for extracting dusts, fumes, and gasses, creating a clean-air
