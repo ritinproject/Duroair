@@ -166,8 +166,6 @@ solution_section:
     - DuroPure™
     - DuroCap™
     - DuroDust™
-    - DuroClean™
-    - DuroDeployable™
 top_10_section:
   sec_heading: TOP 10 Ways Duroair Supports Mission-Critical Readiness for Military Bases
   sec_description: Between manufacturing, MRO, and prototyping, you don’t have
