@@ -162,11 +162,12 @@ flexibility:
 solution_section:
   solution_haed: Specialized Solutions for Your MRO Needs
   related_products:
+    - DuroDeployable™
     - DuroRoom™
     - DuroPure™
     - DuroCap™
     - DuroDust™
-    - DuroTower™
+    - DuroClean™
 top_10_section:
   sec_heading: TOP 10 Ways Duroair Supports Mission-Critical Readiness for Military Bases
   sec_description: Between manufacturing, MRO, and prototyping, you don’t have
