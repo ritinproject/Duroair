@@ -47,7 +47,7 @@
       widget: object
       fields:
         - {label: Heading, name: solution_haed, widget: string}
-        - {label: "Related Products", name: "gm_related_products", widget: "relation", multiple: true, collection: "product", search_fields: ["title"], value_field: "title", "hint":"Begin typing to select a related solution ", required: false}
+        - {label: "Related Products", name: "related_products", widget: "relation", multiple: true, collection: "product", search_fields: ["title"], value_field: "title", "hint":"Begin typing to select a related solution ", required: false}
 
     - name: top_10_section
       label: TOP 10 Section
