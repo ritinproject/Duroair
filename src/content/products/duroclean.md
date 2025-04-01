@@ -48,9 +48,6 @@ techncal_specification:
     * Fire suppression: Wet or dry is available depending upon requirements. Wet for non-retracting only.
 
 
-    For ISO classifications and other technical information, download our DuroClean fact sheet!
-
-
     <!--EndFragment-->
 new_key_features:
   - heading: "Negative & Positive Pressure Capability:"
