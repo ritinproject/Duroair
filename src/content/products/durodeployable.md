@@ -9,6 +9,7 @@ jumbotron:
   headline: DuroDeployable™
   img: /media/uploads/features-1-using-generator-durodeployable.webp
 layout: product.njk
+product_image: /media/uploads/final-touches-setting-up-durodeployable.jpg
 product_intro:
   description: >-
     <!--StartFragment-->
@@ -22,6 +23,7 @@ product_intro:
 
     <!--EndFragment-->
   heading: DuroDeployable™
+thumbnail: /media/uploads/moving-durodeployable-enclosure.jpg
 short_description: DuroDeployable™ is the portable paint booth that creates a
   safe, controlled, compliant environment for painting and other military MRO in
   garrison or while deployed.
@@ -107,9 +109,33 @@ new_key_features:
       <!--EndFragment-->
 key_images:
   image_1: /media/uploads/features-1-using-generator-durodeployable.webp
-  image_2: /media/uploads/dur_sept_blog-img_small.jpg
-  image_3: /media/uploads/dur_dec2020_blog_02-img.jpg
-  image_4: /media/uploads/dur_dec2020_blog_01-thumb.jpg
+  image_2: /media/uploads/final-touches-setting-up-durodeployable.jpg
+  image_3: /media/uploads/loading-duropure-for-durodeployable.jpg
+  image_4: /media/uploads/features-plug-and-play.jpg
+key_features: >-
+  **Cost Savings**
+    * Eliminates the cost of building a new permanent paint booth or new infrastructure within a hangar or facility.
+    * Recirculates clean, filtered air into the workspace. No need to vent to the exterior, thereby reducing energy costs.
+    * Saves valuable footprint space, thanks to its small, retractable design.
+
+  **Reduces Lead Times From Install to Deployment**
+    * DuroDeployable is a generator-ready paint booth for rapid plug and play.
+    * Each DuroDeployable comes with a 25' whip pre-installed, which reduces installation time. Customer electrician can add a plug to the end of the whip or remove if desired.
+
+  **Designed for Personnel and Process Safety**
+    * For user safety, DuroDeployable includes a UL/ULC listed control panel and 1’’ air solenoid interlocked with a fan.
+    * Equipped with a VOC monitor to monitor air levels when leaving the exhaust. It is interlocked with spray air.
+      * If VOCs go over the Time Weighted Average Exposure limit (50ppm), the air to the spray gun will shut off but the fans will continue to run with the filters cleaning the air.
+    * Comes with a fused control panel to reduce exposure to electrical hazards.
+      * Electrician will only need to drop power to the panel.
+    * System is sized to maintain over the minimum 100 linear feet per minute at the intake filters, therefore keeping the conditions well below the 25% lower explosion limit.
+
+  **Meets Compliance and Air Quality Standards**
+    * Meets compliance standards such as:
+      * NESHAP 319 – Testing protocol where chromate paint is mimicked. This test verifies an air filtration system meets minimum efficiency requirements.
+      * DCPH-A – (Defense Centers for Public Health – Aberdeen) tested and verified by U.S. Army Engineers and Industrial Hygienists.
+      * OSHA – VOC monitor ensures the VOC level does not rise above the allowable amount in an 8-hour time period (50ppm).
+    * DuroDeployable also exceeds many compliance standards, including containment of particulate levels for safeguarding personnel against hexavalent chromium.
 image_2: /media/uploads/technical-specifications.webp
 g&m_related_data:
   show_data: >-
@@ -146,33 +172,8 @@ technical_specifications: >-
 
   * Training and maintenance best practices included with purchase.
 youtube_url: https://www.youtube.com/watch?v=NwCvLbYdRLM
-
 show_in_menu: "true"
 nav_title: DuroDeployable
-key_features: >-
-  **Cost Savings**
-    * Eliminates the cost of building a new permanent paint booth or new infrastructure within a hangar or facility.
-    * Recirculates clean, filtered air into the workspace. No need to vent to the exterior, thereby reducing energy costs.
-    * Saves valuable footprint space, thanks to its small, retractable design.
-
-  **Reduces Lead Times From Install to Deployment**
-    * DuroDeployable is a generator-ready paint booth for rapid plug and play.
-    * Each DuroDeployable comes with a 25' whip pre-installed, which reduces installation time. Customer electrician can add a plug to the end of the whip or remove if desired.
-
-  **Designed for Personnel and Process Safety**
-    * For user safety, DuroDeployable includes a UL/ULC listed control panel and 1’’ air solenoid interlocked with a fan.
-    * Equipped with a VOC monitor to monitor air levels when leaving the exhaust. It is interlocked with spray air.
-      * If VOCs go over the Time Weighted Average Exposure limit (50ppm), the air to the spray gun will shut off but the fans will continue to run with the filters cleaning the air.
-    * Comes with a fused control panel to reduce exposure to electrical hazards.
-      * Electrician will only need to drop power to the panel.
-    * System is sized to maintain over the minimum 100 linear feet per minute at the intake filters, therefore keeping the conditions well below the 25% lower explosion limit.
-
-  **Meets Compliance and Air Quality Standards**
-    * Meets compliance standards such as:
-      * NESHAP 319 – Testing protocol where chromate paint is mimicked. This test verifies an air filtration system meets minimum efficiency requirements.
-      * DCPH-A – (Defense Centers for Public Health – Aberdeen) tested and verified by U.S. Army Engineers and Industrial Hygienists.
-      * OSHA – VOC monitor ensures the VOC level does not rise above the allowable amount in an 8-hour time period (50ppm).
-    * DuroDeployable also exceeds many compliance standards, including containment of particulate levels for safeguarding personnel against hexavalent chromium.
 ---
 ### How It Works
 
