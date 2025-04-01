@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function () {
             slidesToShow: 2,
             slidesToScroll: 1,
             dots: false,
-            arrows: false,
+            arrows: true,
             infinite: true,
             autoplay: true,
             autoplaySpeed: 2000,
