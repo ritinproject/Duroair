@@ -48,9 +48,6 @@ techncal_specification:
     * Fire suppression: Wet or dry is available depending upon requirements. Wet for non-retracting only.
 
 
-    For ISO classifications and other technical information, download our DuroClean fact sheet!
-
-
     <!--EndFragment-->
 new_key_features:
   - heading: "Negative & Positive Pressure Capability:"
@@ -145,7 +142,7 @@ g&m_related_data:
 
     <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroClean™ System.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Fans designed with reverse, incline fan wheels and inlet cones. Non-sparking
   constructed with fan sizes from 18" to 35" with 5hp to 25hp motors dependent
