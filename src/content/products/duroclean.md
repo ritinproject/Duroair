@@ -142,7 +142,7 @@ g&m_related_data:
 
     <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroClean™ System.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Fans designed with reverse, incline fan wheels and inlet cones. Non-sparking
   constructed with fan sizes from 18" to 35" with 5hp to 25hp motors dependent
