@@ -172,24 +172,20 @@ related_solutions:
   - Weld Smoke
   - Dust Collection
 g&m_related_data:
-  show_data: For a complete clean air solution, pair DuroDust with DuroRoom.
+  show_data: |-
+    <!--StartFragment-->
+
+    For a complete clean air solution, pair DuroDust with DuroRoom.
+
+    <!--EndFragment-->
   hide_data: >-
-    DuroRooms isolate and contain a hazard created during a manufacturing and
-    maintenance process or protect a process from external contamination. All
-    systems are custom-designed to a customer’s requirements including:
+    <!--StartFragment-->
 
 
-    * H’ x W’ x L’
+    DuroDust™ is the mobile dust collection system with non-vented, non-ducted, industrial dust collection technology. From silica dust to hexavalent chromium, it’s the safe, clean-air solution for stone cutting, welding, sanding, grinding, painting, and coating preparation.
 
-    * Temperature and humidity
 
-    * Lighting foot-candle/lumens
-
-    * Filtration requirement
-
-    * Positive, negative, or neutral pressure
-
-    * Fire suppression requirements
+    <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroDust™ System.pdf
 btn_label: DOWNLOAD FACT SHEET
 technical_specifications: >-
