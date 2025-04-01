@@ -54,7 +54,7 @@ a_nederman_company:
     With local expertise and global presence our mission is clear – we shape the future for clean air. 
 
 
-    Learn more at [nedermangroup.com](https://nedermangroup.com/)
+    [Learn more](https://nedermangroup.com/) at nedermangroup.com
 our_experties:
   - heading: Innovating Purposeful Clean-Air Solutions
     image: /media/uploads/about-duroair-making-the-business-case-for-clean-air.jpg
