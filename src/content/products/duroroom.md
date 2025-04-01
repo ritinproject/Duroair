@@ -56,9 +56,6 @@ techncal_specification:
     * All vinyl NFPA 701 compliant, with clear, opaque, and custom options available.
 
 
-    For ISO classifications and other technical information, download our DuroRoom fact sheet!
-
-
     <!--EndFragment-->
 new_key_features:
   - heading: "Taper Draft Airflow Technology: "
