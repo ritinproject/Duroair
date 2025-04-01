@@ -54,7 +54,7 @@
       widget: object
       fields:
         - {label: Heading, name: case_study_haed, widget: string}
-        - {label: "Related Products", name: "caseStudies", widget: "relation", multiple: true, collection: "case-study", search_fields: ["title"], value_field: "title", "hint":"Begin typing to select a related solution ", required: false}
+        - {label: "Related Products", name: "caseStudies", widget: "relation", multiple: true, collection: "caseStudie", search_fields: ["title"], value_field: "title", "hint":"Begin typing to select a related solution ", required: false}
 
     - name: top_10_section
       label: TOP 10 Section
