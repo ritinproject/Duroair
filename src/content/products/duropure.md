@@ -212,7 +212,7 @@ g&m_related_data:
 
     <!--EndFragment-->
 brochure: /media/uploads/Duroair DuroPure™ System W.pdf
-btn_label: DOWNLOAD FACT SHEET
+btn_label: Download Fact Sheet
 technical_specifications: >-
   * Patented filtration is created using a unique configuration of panel, pocket
   dual pleat , V bank, UV and carbon filters.
