@@ -30,12 +30,41 @@ short_description: A breakthrough in industrial dust collection, the modular and
   compact DuroCollector™ offers a powerful solution for compliant clean air,
   without sacrificing floor space.
 image_1: /img/image-2-durocollector.jpg
+techncal_specification:
+  technical_heading: Technical Specifications
+  technical_description: |-
+    <!--StartFragment-->
+
+    * 2000 – 80,000 CFM design range
+    * Cartridge collector can be upgraded to HEPA with optional after filter
+    * Self-clean with automatic blow off
+    * Manual clean available
+
+    <!--EndFragment-->
 key_images:
   image_1: /media/uploads/dur2023_q3blogmitigate_400x208.87-cleanfacility.png
   image_2: /media/uploads/dur_dec2020_blog_01-img.jpg
   image_3: /media/uploads/dur-201314-november-2-thumb.jpg
   image_4: /media/uploads/dur_dec2020_blog_02-img.jpg
+key_features: no key feature
 image_2: /img/image-3-durocollector.png
+compliance:
+  - code: OSHA
+    description: Exceeds OSHA requirement of 25 μg/m3
+  - code: OSHA 29CFR - 1910.94
+    description: ventilation
+  - code: OHSA O.Reg 851-63
+    description: ignition or explosive
+  - code: OHSA O.Reg 851-65
+    description: dust - ignition or explosive
+  - code: OSHA silica
+    description: standard for general industry
+  - code: UL (U.S. and Canada)
+    description: environmental health and sustainability
+  - code: NFPA
+    description: code compliant
+  - code: EPA
+    description: compliant
 g&m_related_data:
   show_data: DuroPure recirculating exhaust units are used for coating and surface
     preparation applications. It does not require ducting or ventilation and
@@ -57,6 +86,7 @@ g&m_related_data:
     * Positive, negative, or neutral pressure
 
     * Fire suppression requirements
+btn_label: DuroCollector
 technical_specifications: |-
   * 2000 – 80,000 CFM design range
   * Cartridge collector can be upgraded to HEPA with optional after filter
@@ -78,35 +108,6 @@ copy_block_1: >-
 
   * Easy to clean, thanks to a more efficient vertical filter design for quick dust drawer collection, compared to cumbersome horizontal cartridge configurations
 show_in_menu: "true"
-techncal_specification:
-  technical_heading: Technical Specifications
-  technical_description: |-
-    <!--StartFragment-->
-
-    * 2000 – 80,000 CFM design range
-    * Cartridge collector can be upgraded to HEPA with optional after filter
-    * Self-clean with automatic blow off
-    * Manual clean available
-
-    <!--EndFragment-->
-key_features: no key feature
-compliance:
-  - code: OSHA
-    description: Exceeds OSHA requirement of 25 μg/m3
-  - code: OSHA 29CFR - 1910.94
-    description: ventilation
-  - code: OHSA O.Reg 851-63
-    description: ignition or explosive
-  - code: OHSA O.Reg 851-65
-    description: dust - ignition or explosive
-  - code: OSHA silica
-    description: standard for general industry
-  - code: UL (U.S. and Canada)
-    description: environmental health and sustainability
-  - code: NFPA
-    description: code compliant
-  - code: EPA
-    description: compliant
 nav_title: DuroCollector
 ---
 ### An Industrial Breakthrough in Dust Collection
