@@ -370,9 +370,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const containerWidth = container.offsetWidth;
         const randomX = Math.random() * (containerWidth - size);
         dot.style.left = randomX + 'px';
-        dot.style.bottom = '-20px';
+        dot.style.top = '-20px';
         container.appendChild(dot);
-        dot.style.animation = `floatUp ${duration}s linear forwards`;
+        dot.style.animation = `floatDown ${duration}s linear forwards`;
         setTimeout(() => {
             dot.remove();
         }, duration * 2000);
