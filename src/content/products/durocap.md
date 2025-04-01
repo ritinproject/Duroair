@@ -127,25 +127,22 @@ compliance:
   - code: OSHA silica
     description: standard for general industry
 g&m_related_data:
-  show_data: DuroCap™ pairs with DuroRoom to create a clean air envelope around
-    workpieces for a contaminant-free retractable workstation.
+  show_data: >-
+    <!--StartFragment-->
+
+
+    DuroCap™ pairs with DuroRoom to create a clean air envelope around workpieces for a contaminant-free retractable workstation.
+
+
+    <!--EndFragment-->
   hide_data: >-
-    DuroRooms isolate and contain a hazard created during a manufacturing and
-    maintenance process or protect a process from external contamination. All
-    systems are custom-designed to a customer’s requirements including:
+    <!--StartFragment-->
 
 
-    * H’ x W’ x L’
+    DuroCap is the vented, modular, air filtration system that’s easily customizable for extracting dusts, fumes, and gasses, creating a clean-air envelope around your oversized workpieces. Its 2-stage filtration removes 99.4% of all air pollutants for a contaminant-free portable workstation during sanding, grinding, coating, and painting. DuroCap also pairs with Duroair’s Taper Daft Airflow technology (downdraft worktables) to capture 99.4% of toxic dust from sanding and grinding tasks, often generated while working on paint from MRAPs.
 
-    * Temperature and humidity
 
-    * Lighting foot-candle/lumens
-
-    * Filtration requirement
-
-    * Positive, negative, or neutral pressure
-
-    * Fire suppression requirements
+    <!--EndFragment-->
 btn_label: Download Fact Sheet
 technical_specifications: >-
   * Single phase 220V and three phase 208/230/460/575V available upon request.
