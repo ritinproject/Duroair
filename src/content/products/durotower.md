@@ -121,6 +121,9 @@ show_in_menu: "true"
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
+    <!--StartFragment-->
+
+
     * 8,000 – 30,000 CFM design range
 
     * Small footprint: 40” x 50”
@@ -140,6 +143,9 @@ techncal_specification:
     * Easy two-section installation
 
     * Can be used with a [DuroRoom™](https://www.duroair.com/products/duroroom) workstation for an effective clean room, isolation room, or dust collection applications
+
+
+    <!--EndFragment-->
 key_features: >-
   * **DuroTower System**: Revolving airflow system is ten times more energy
   efficient than traditional overhead cleaners, saving energy costs.

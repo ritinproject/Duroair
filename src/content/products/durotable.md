@@ -33,6 +33,9 @@ image_1: /media/uploads/durotable.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
+    <!--StartFragment-->
+
+
     * Two 5 HP Blowers
 
     * Approx 900 lbs.
@@ -45,6 +48,11 @@ techncal_specification:
       * 2nd stage: Pre-filter particulate
       * 3rd stage: Pre-filter finer particulate
       * 4th stage: MERV 15-16 NESHAP 319 up to and including to HEPA
+
+    For ISO classifications and other technical information, download our DuroTable fact sheet!
+
+
+    <!--EndFragment-->
 new_key_features:
   - heading: Custom Tabletop Sizes
     description: >-

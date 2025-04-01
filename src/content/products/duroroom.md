@@ -42,7 +42,8 @@ image_1: /img/image-2-duroroom.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    
+    <!--StartFragment-->
+
 
     * Modular design in 5’-0” or 6’-0” increments, with sizes up to 50’-0” high and 65’-0” wide with unlimited linear length.
 
@@ -56,6 +57,9 @@ techncal_specification:
 
 
     For ISO classifications and other technical information, download our DuroRoom fact sheet!
+
+
+    <!--EndFragment-->
 new_key_features:
   - heading: "Taper Draft Airflow Technology: "
     description: >-
