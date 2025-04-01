@@ -65,6 +65,8 @@ compliance:
     description: code compliant
   - code: EPA
     description: compliant
+related_solutions:
+  - Clean Rooms
 g&m_related_data:
   show_data: DuroPure recirculating exhaust units are used for coating and surface
     preparation applications. It does not require ducting or ventilation and
