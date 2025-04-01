@@ -37,3 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     breadcrumbContainer.innerHTML = breadcrumbHTML;
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const navLinks = document.querySelectorAll("ul.navbar-nav.ms-auto li a");
+
+    navLinks.forEach(link => {
+        link.textContent = link.textContent.replace(/\bAnd\b/g, "and");
+    });
+});
