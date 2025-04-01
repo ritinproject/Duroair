@@ -164,10 +164,9 @@ solution_section:
   related_products:
     - DuroRoom™
     - DuroPure™
-    - DuroDeployable™
     - DuroCap™
     - DuroDust™
-    - DuroClean™
+    - DuroTower™
 top_10_section:
   sec_heading: TOP 10 Ways Duroair Supports Mission-Critical Readiness for Military Bases
   sec_description: Between manufacturing, MRO, and prototyping, you don’t have
@@ -184,55 +183,86 @@ top_10_section:
         to be compatible with Deployable Rapid Assembly Shelters currently in
         use by the military. The system is plug and play and can be deployed
         where needed.
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Duroair’s solutions meet stringent compliance requirements. The DuroPure six- stage filtration captures 99+% of particulates (exceeds NESAHP 319 requirements) and thoroughly cleans the air of VOCs, isocyanates, and hexavalent chromium. We work closely with EHS officers.
+
+
+        <!--EndFragment-->
       child_head: Protection of Service Members
-    - child_head: Protection of Service Members
-      child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Our systems are not only retractable; they also are on wheels. This allows for immediate repurposing of any area within a hangar or repair facility. The enclosures are deployable to another building or forward operating base (FOB), which means maximum productive flexibility and readiness.
+
+
+        <!--EndFragment-->
       child_head: Provides Options Through Mobility
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Since Duroair systems do not need to be permanently affixed to a building or facility, they provide agility to meet the demands of whatever work needs to be done. This is a big consideration for multi-phase work, such as corrosion protection in the humid environments of many bases.
+
+
+        <!--EndFragment-->
       child_head: Boosts Repair Agility
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        The unvented systems do not have to send treated air outside of the facility. They also do not require makeup air. This adds up to a substantial energy cost reduction in facility heating and cooling in comparison with solutions involving permanent setups.
+
+
+        <!--EndFragment-->
       child_head: Reduces Energy Costs
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Duroair systems can be designed and built to any size requirements — an important consideration for servicing rotor blades, wings, engines, and large workpieces. The majority of specialized designs can be completed in weeks.
+
+
+        <!--EndFragment-->
       child_head: Meets Any Size Requirement
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        A Duroair system allowed a military base to bring its prep work and painting in-house, saving millions of dollars and mission-critical time. Outsourcing can be a big cost for corrosion protection in the humid environments of many bases. With assets staying on site, it also saves on security costs associated with transit to a subcontractor.
+
+
+        <!--EndFragment-->
       child_head: Eliminates Outsourcing
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Large isolation booths with options for two or three chambers will allow multiple processes to be carried out at the same time on the same shift. This maximizes productive workspace and saves time).
+
+
+        <!--EndFragment-->
       child_head: Aids in Efficiency for High-Demand Operations
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        Our enclosures and systems can be designed to accommodate large components for jets, MRAPs, and even submarines. Whether you enclose a whole warfighter asset or specific sections such as wings to allow repairs without disassembly, workpieces can stay in place. This amounts to significant savings in repair time, material handling time, shipping time and costs, and scheduling time. It also minimizes moving damage and rework to sensitive and bulky workpieces.
+
+
+        <!--EndFragment-->
       child_head: Accommodates Large Workpieces
-    - child_desc: Our systems are deployable capital equipment. They can be designed
-        to be compatible with Deployable Rapid Assembly Shelters currently in
-        use by the military. The system is plug and play and can be deployed
-        where needed.
+    - child_desc: >-
+        <!--StartFragment-->
+
+
+        With our retractable, portable enclosures, there is no need to build new facilities for applications that require clean air. A Duroair system reduces capital cost investments by maximizing your productive space. It might allow you to repurpose existing structures. The booths are extended only when needed to isolate a process, and when isolation is no longer required, the enclosure can be retracted and the area can be returned to production. When not in use, the enclosure can be stored at about 20% of its extended length.
+
+
+        <!--EndFragment-->
       child_head: Saves on Capital Expenses
 certificate_section:
   cert_btn: Download Now
