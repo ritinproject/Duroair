@@ -146,7 +146,7 @@ technical_specifications: >-
 
   * Training and maintenance best practices included with purchase.
 youtube_url: https://www.youtube.com/watch?v=NwCvLbYdRLM
-remove_key_features_margin: false
+
 show_in_menu: "true"
 nav_title: DuroDeployable
 key_features: >-
