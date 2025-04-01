@@ -138,10 +138,12 @@ key_features: >-
 
 
 
+
     
   **More options for windows, pass-throughs, and doors**
     * Accommodates multiple hard-wall pass-throughs and roll-up doors with easy-to-clean fabric for access ports. Allows items to pass through without having to exit and reenter the clean room, thereby de-risking contamination.
     * Multiple window types and thicknesses are available with door options that include airlock entries, man doors, rollup doors, and open face.
+
 
 
 
@@ -169,7 +171,7 @@ key_features: >-
 image_2: /media/uploads/technical-photo.webp
 related_solutions:
   - Clean Rooms
-btn_label: Download Brochure
+btn_label: ""
 technical_specifications: >-
   * Standard DuroRoom Hardwall can go up to 24’H. Can go higher if required, up
   to 50’H. 
