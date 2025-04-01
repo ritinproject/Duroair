@@ -113,25 +113,22 @@ key_images:
   image_4: /media/uploads/dur_dec2020_blog_01-thumb.jpg
 image_2: /media/uploads/technical-specifications.webp
 g&m_related_data:
-  show_data: DuroDeployable™ exceeds ACHIH TLVs and OSHA standards and is tested
-    and verified by DCPH-A.
+  show_data: >-
+    <!--StartFragment-->
+
+
+    DuroDeployable™ exceeds ACHIH TLVs and OSHA standards and is tested and verified by DCPH-A.
+
+
+    <!--EndFragment-->
   hide_data: >-
-    DuroRooms isolate and contain a hazard created during a manufacturing and
-    maintenance process or protect a process from external contamination. All
-    systems are custom-designed to a customer’s requirements including:
+    <!--StartFragment-->
 
 
-    * H’ x W’ x L’
+    DuroDeployable is the rapid-deploy, portable paint booth for creating safe, controlled, compliant environments for military maintenance operations in garrison or while deployed. It can be fully operational in one hour with 3-4 service members. DuroDeployable mitigates exposure to hexavalent chromium, isocyanates, and VOCs for safe and compliant spray operations. It can be easily moved from garrison in 1-40’ High Cube MILVAN or 2-20’ High Cube MILVANS — anywhere a safe, compliant environment is required.
 
-    * Temperature and humidity
 
-    * Lighting foot-candle/lumens
-
-    * Filtration requirement
-
-    * Positive, negative, or neutral pressure
-
-    * Fire suppression requirements
+    <!--EndFragment-->
 btn_label: Download Brochure
 technical_specifications: >-
   
