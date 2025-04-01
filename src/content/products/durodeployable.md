@@ -8,7 +8,7 @@ seo:
   noindex: false
 jumbotron:
   headline: DuroDeployable™
-  img: null
+  img: /media/uploads/features-1-using-generator-durodeployable.webp
 layout: product.njk
 product_intro:
   description: >-
