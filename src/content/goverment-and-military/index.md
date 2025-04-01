@@ -269,6 +269,7 @@ certificate_section:
   cert_head: Certifications
   cert_desc: Duroair’s certified clean air solutions ensure compliance, safety,
     and efficiency in industrial environments.
+  brochure: /img/Duroair_NSN_Guide_2025.pdf
 cta:
   copy: Contact us today to discuss a clean air solution that works with on-demand
     workflows in military and defense manufacturing operations.
