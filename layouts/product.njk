@@ -138,22 +138,25 @@
                 <div class="dcap-classification-content">
                     <p>All classifications are in accordance with U.S. Federal Standard 209E and represent concentrations of particles using reference size of 0.5 micron.</p>
                     <div class="dcapclfication-table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <td>Code Compliance</td>
-                                    <td>Code Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {%- for item in compliance -%}
-                                <tr>
-                                    <td><strong>{{ item.code }}</strong></td>
-                                    <td>{{ item.description | nl2br }}</td>
-                                </tr>
-                                {%- endfor -%}
-                            </tbody>
-                        </table>
+                        {%- if compliance and compliance | length > 0 -%}
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Code Compliance</td>
+                                        <td>Code Description</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {%- for item in compliance -%}
+                                        <tr>
+                                            <td><strong>{{ item.code }}</strong></td>
+                                            <td>{{ item.description | nl2br }}</td>
+                                        </tr>
+                                    {%- endfor -%}
+                                </tbody>
+                            </table>
+                        {%- endif -%}
+
                     </div>
                 </div>
             </div>
