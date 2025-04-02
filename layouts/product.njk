@@ -108,7 +108,6 @@
                         </div>
                         <div class="tecspecs-list mb-5">
                             <p>{{ techncal_specification.technical_description | md }}</p>
-                            <p>For ISO classifications and other technical information, download our DuroCap fact sheet!</p>
                         </div>
                         {%- if brochure and brochure | length > 0 -%}
                             <a href="{{ brochure }}" class="cmn-btn button" target="_blank">
@@ -185,7 +184,7 @@
                     <div class="specialised-slider cmnslider">
                         {%- for item in related_solutions -%}
                         {%- set solution = item | findByField('title', solutions) -%}
-                        <div class="specialised-slider-item">
+                        <div class="specialised-slider-item"> 
                             <div class="specialised-item-inr">
                                 <a href="/{{ solution.path }}" class="specialised-img">
                                     <img src="{{ solution.thumbnail }}" alt="Specialised Image">
