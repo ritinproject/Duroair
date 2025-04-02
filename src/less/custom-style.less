@@ -11914,6 +11914,18 @@ fieldset span {
     align-items: center;
     justify-content: center;
 
+    &::after{
+
+        position: absolute;
+            height: 4px;
+            z-index: -1;
+            left: 0;
+            width: 100%;
+            content: '';
+            right: 0;
+            margin: auto;
+            background-color: #fff;
+    }
 }
 
 .sec-head h2::after {
