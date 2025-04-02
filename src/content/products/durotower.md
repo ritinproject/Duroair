@@ -26,7 +26,7 @@ product_intro:
     <br>
 
     Or use as a stand-alone ambient air cleaning system.
-thumbnail: /img/thumbs/thumb-durotower.jpg
+thumbnail: /media/uploads/image-1-durotower.jpg
 short_description: DuroTower™ provides rotating air purification technology that
   controls welding smoke, grinding and cutting dust, and spraying fumes for
   whole plant applications.
