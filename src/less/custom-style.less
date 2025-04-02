@@ -11915,7 +11915,7 @@ fieldset span {
     align-items: center;
     justify-content: center;
 
-    &::after{
+    &::after {
 
         position: absolute;
         height: 4px;
@@ -11952,6 +11952,7 @@ fieldset span {
     margin: auto;
     background-color: #fff;
 }
+
 .sec-head::before {
     position: absolute;
     height: 4px;
@@ -13110,4 +13111,29 @@ fieldset span {
 
 .slnprt-item-right .slnprti-img img {
     max-height: 250px;
+}
+
+
+.sec-head.newhedline::before {
+    height: 4px;
+    left: 0;
+    content: '';
+    width: calc(100% - 80%);
+    z-index: -1;
+    position: absolute;
+    background-color: var(--primary-color);
+}
+
+.sec-head.newhedline::after {
+    height: 4px;
+    right: 0;
+    content: '';
+    width: calc(100% - 80%);
+    z-index: -1;
+    position: absolute;
+    background-color: var(--primary-color);
+}
+
+.sec-head.newhedline h2::after {
+    display: none;
 }
