@@ -40,3 +40,12 @@
         };
     }
 })();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let navLink = document.querySelector(".nav-government-and-military a.link");
+
+    if (navLink) {
+        navLink.textContent = navLink.textContent.replace(/\bAnd\b/g, "and");
+    }
+});
