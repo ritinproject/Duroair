@@ -72,7 +72,7 @@ key_images:
   image_1: /media/uploads/8-000-cfm-durotower.jpg
   image_2: /media/uploads/15-000-cfm-durotower.jpg
   image_3: /media/uploads/durotower-emergency-stop.jpg
-  image_4: /media/uploads/welding-with-durotower-in-the-background-2-.jpg
+  image_4: ""
 image_2: /img/image-3-durotower.jpg
 related_solutions:
   - Dust Collection
