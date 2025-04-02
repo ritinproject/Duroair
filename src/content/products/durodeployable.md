@@ -23,7 +23,7 @@ product_intro:
 
     <!--EndFragment-->
   heading: DuroDeployable™
-thumbnail: /media/uploads/moving-durodeployable-enclosure.jpg
+thumbnail: /media/uploads/hero-unloading-enclosure-durodeployable.jpg
 short_description: DuroDeployable™ is the portable paint booth that creates a
   safe, controlled, compliant environment for painting and other military MRO in
   garrison or while deployed.
