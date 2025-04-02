@@ -88,7 +88,7 @@ g&m_related_data:
     * Positive, negative, or neutral pressure
 
     * Fire suppression requirements
-btn_label: DuroCollector
+btn_label: DuroCollector Fact Sheet
 technical_specifications: |-
   * 2000 – 80,000 CFM design range
   * Cartridge collector can be upgraded to HEPA with optional after filter
