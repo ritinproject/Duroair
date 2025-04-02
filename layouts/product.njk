@@ -79,7 +79,7 @@
                                     </span>
                                 </div>
                                 <div class="dcapftures-content">
-                                    <p>{{ item.description }}</p>
+                                    <p>{{ item.description | md }}</p>
                                 </div>
                             </div>
                             {%- endfor -%}
@@ -149,7 +149,7 @@
                                     {%- for item in compliance -%}
                                         <tr>
                                             <td><strong>{{ item.code }}</strong></td>
-                                            <td>{{ item.description | nl2br }}</td>
+                                            <td>{{ item.description | md }}</td>
                                         </tr>
                                     {%- endfor -%}
                                 </tbody>
