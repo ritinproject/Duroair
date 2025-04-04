@@ -25,6 +25,7 @@ product_intro:
 
 
     <!--EndFragment-->
+intro-video: /media/uploads/video.mp4
 thumbnail: /img/thumbs/thumb-durocollector.jpg
 short_description: A breakthrough in industrial dust collection, the modular and
   compact DuroCollector™ offers a powerful solution for compliant clean air,
