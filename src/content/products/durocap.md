@@ -25,8 +25,6 @@ product_intro:
     painting](https://www.duroair.com/solutions/painting-coating/).
 
 
-
-
     Pair it with:
 
 
