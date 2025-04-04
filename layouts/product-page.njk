@@ -364,6 +364,31 @@
                         </div>
                     </div>
                 </div>
+                <!------- Ingenuity Section Begin ------>
+
+                    <div class="ingenuity-sec-wrap mobile-ingenuity">
+                    <div class="container">
+                        <div class="row">
+                        {%- for item in ingenuity.flexible_options -%}
+                        <div class="col-lg-4">
+                            <!-- CARD -->
+                            <div class="ingenuity-card">
+                            <div class="content-sec-ingenuity">
+                                <h4>{{ item.heading_13 }}</h4>
+                                <p>{{ item.description_13| md }}</p>
+                                <div class="image-box">
+                                <img src="{{ item.image_9 }}" alt="">
+                                </div>
+                            </div>
+                            </div>
+                            <!-- CARD -->
+                        </div>
+                        {%- endfor -%}
+                        </div>
+                    </div>
+                    </div>
+
+                    <!------- Ingenuity Section Begin ------>
             </div>
         </div>
 
