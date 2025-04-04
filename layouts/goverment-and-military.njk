@@ -85,9 +85,48 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                
                             </div>
+                        </div>
+                        <div class="col-lg-7 dod-right-wrp">
+                        <div class="dod-right">
+
+                            <!-- Small Cards: Dynamically Generated from List Widget -->
+                            <div class="dod-small-cards-wrp">
+
+                            {%- for item in dod_section.child_right_sec if not loop.first -%}
+                            <!-- ===== CARD ==== -->
+
+                            <div class="dod-sm-card">
+                                <div class="dod-sm-card-head">
+                                <h3>{{ item.dod_right_head }}</h3>
+                                </div>
+                                <div class="dod-sm-card-btn">
+                                <a href="#" class="show-decribe-data-one" data-target="show-describe-data-list-{{ loop.index}}"
+                                    data-head="{{ item.dod_right_head }}">
+                                    Read More
+                                    <img src="/img/btn-arrow.svg" alt="Arrow Icon">
+                                </a>
+                                </div>
+                            </div>
+
+                            <!-- SHOW HIDE SEC DOD FOR MOBILE AND DESKTOP -->
+                            <div class="dod-card-wrp show-describe-data-list-one" style="display: none;">
+                                <div class="dod-card">
+                                <div class="dod-card-head">
+                                    <h3 id="dod-main-head">
+                                    {{ item.dod_right_head }}
+                                    </h3>
+                                </div>
+                                <div class="dod-card-body" id="dod-main-body">
+                                    {{ item.description | md }}       
+                                </div> 
+                                </div>
+                            </div>
+                            <!-- SHOW HIDE SEC DOD FOR MOBILE AND DESKTOP -->
+                            {%- endfor -%}
+                            <!-- ===== CARD ==== -->
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
