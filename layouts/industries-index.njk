@@ -128,21 +128,19 @@
                 <div class="case-study-slider-wrp">
                     <div class="case-study-slider">
                         {%- for caseStudy in caseStudies -%}
-                        <div class="casesl-item">
                         <a href="/{{ caseStudy.path }}" class="arw-btn-icon">
+                        <div class="casesl-item">
                             <div class="cs-item-inr">
                                 <div class="csitem-img">
                                     <img src="{{ caseStudy.small_image }}" alt="{{ caseStudy.title }}">
                                 </div>
                                 <div class="case-sdy-content">
                                     <h3>{{ caseStudy.title }}</h3>
-                                    <a href="/{{ caseStudy.path }}" class="arw-btn-icon">
                                         <img src="/img/arw-btn-icon.svg" alt="Icon">
-                                    </a>
                                 </div>
                             </div>
-                            </a>
                         </div>
+                        </a>
                         {%- endfor -%}
                     </div>
                 </div>
