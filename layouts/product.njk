@@ -23,7 +23,7 @@
                         <div class="col-lg-6">
                             <div class="cmn-about-left">
                                 <div class="cmnabt-img">
-                                {% if intro_video and intro_video | length > 0 %}
+                                {% if intro_video %}
                                     <video autoplay="true" loop="true" muted="true" src="{{ intro_video }}" class="visible"></video>
                                     {% else %}
                                     <img src="{{ thumbnail }}" alt="Image">
