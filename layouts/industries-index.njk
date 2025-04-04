@@ -133,12 +133,14 @@
                                 <div class="csitem-img">
                                     <img src="{{ caseStudy.small_image }}" alt="{{ caseStudy.title }}">
                                 </div>
+                                <a href="/{{ caseStudy.path }}" class="arw-btn-icon">
                                 <div class="case-sdy-content">
                                     <h3>{{ caseStudy.title }}</h3>
                                     <a href="/{{ caseStudy.path }}" class="arw-btn-icon">
                                         <img src="/img/arw-btn-icon.svg" alt="Icon">
                                     </a>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         {%- endfor -%}
