@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     $(document).ready(function () {
-      $(".show-decribe-data-one, .show-decribe-data-two, .show-decribe-data-third").on("click", function (e) {
+      $(".show-decribe-data-1, .show-decribe-data-2, .show-decribe-data-3").on("click", function (e) {
         e.preventDefault();
 
         const targetClass = $(this).data("target");
