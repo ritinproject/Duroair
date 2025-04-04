@@ -61,9 +61,9 @@ $(document).ready(function () {
         $('.home-banner-slider').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 2000,
-          arrows: false,
+          arrows: true,
           speed: 1000,
         });
       }
