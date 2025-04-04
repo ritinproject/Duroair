@@ -543,10 +543,22 @@ ul {
         width: 100%;
     }
 
+    .sec-head h2::after {
+        position: absolute;
+        height: 4px;
+        z-index: -1;
+        left: 0;
+        width: 90%;
+        content: '';
+        right: 0;
+        margin: auto;
+        background-color: #fff;
+    }
+
     .case-study-nav-slider-wrp .slick-list.draggable {
         display: none;
     }
-    
+
     .nav-wrap {
         padding: 10px 0px;
     }
