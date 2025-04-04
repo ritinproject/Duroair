@@ -23,8 +23,6 @@ product_intro:
     * [DuroRoom™](/products/duroroom)
 
 
-    <br>
-
     Or use as a stand-alone ambient air cleaning system.
 thumbnail: /media/uploads/image-1-durotower.jpg
 short_description: DuroTower™ provides rotating air purification technology that
