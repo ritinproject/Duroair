@@ -22,20 +22,7 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="cmn-about-left">
-                                <div class="cmnabt-img">
-                                {% if intro_video %}
-                                    <video autoplay loop muted playsinline>
-            <source src="{{ intro_video }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-                                    {% else %}
-                                    <img src="{{ thumbnail }}" alt="Image">
-                                    <video autoplay loop muted playsinline>
-            <source src="{{ intro_video }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-                                {% endif %}
-                                </div>
+                                <div class="cmnabt-img"><img src="{{ thumbnail }}" alt="Image"></div>
                             </div>
                         </div>
                     </div>
