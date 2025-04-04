@@ -14,3 +14,24 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+
+    $(document).ready(function () {
+      $(".show-decribe-data-one, .show-decribe-data-two, .show-decribe-data-third").on("click", function (e) {
+        e.preventDefault();
+
+        const targetClass = $(this).data("target");
+        const $target = $("." + targetClass);
+
+        // Agar target section already visible hai toh use band karo
+        if ($target.is(":visible")) {
+          $target.slideUp();
+        } else {
+          // Pehle sabhi sections band karo
+          $(".show-describe-data-list-one, .show-describe-data-list-two, .show-describe-data-list-third").slideUp();
+          // Fir clicked wale section ko toggle karo
+          $target.stop(true, true).slideDown();
+        }
+      });
+    });
