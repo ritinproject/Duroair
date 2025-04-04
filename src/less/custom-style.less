@@ -411,9 +411,11 @@ ul.navbar-nav.ms-auto {
         border-radius: 2rem;
     }
 }
-a{
+
+a {
     font-weight: 400 !important;
 }
+
 a.button {
     position: relative;
     display: inline-flex;
@@ -13164,30 +13166,38 @@ input.hs-button.primary.large {
 
 .mobile-sec-dod {
     display: none;
-  }
-  
-  .show-describe-data-one {
+}
+
+.show-describe-data-one {
     display: none;
-  }
-  
-  /* ================== NEW CSS DOD FOR HIDE AND SHOW SEC ========== */
-  .content-sec-ingenuity .image-box img {
+}
+
+/* ================== NEW CSS DOD FOR HIDE AND SHOW SEC ========== */
+.content-sec-ingenuity .image-box img {
     width: 100%;
 }
 
 
 .solution .code-compliance-sec.cmn-gap {
-    background-image: url("/img/bg-blue.png");
+    position: relative;
 }
 
 .code-compliance-sec.cmn-gap:before {
     content: "";
     position: absolute;
     background-image: url("/img/bg-blue-top.svg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    top: 0;
 }
 
-.code-compliance-sec.cmn-gap:after{
+.code-compliance-sec.cmn-gap:after {
     content: "";
     position: absolute;
     background-image: url("/img/bg-blue-bottom.svg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    bottom: 0;
 }
