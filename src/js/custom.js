@@ -56,6 +56,18 @@ $(document).ready(function () {
         });
       }
       
+
+      if ($('.home-banner-slider').length > 0) {
+        $('.home-banner-slider').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          arrows: false,
+          speed: 1000,
+        });
+      }
+
       if ($('.specialised-slider').length > 0) {
         $('.specialised-slider').slick({
           slidesToShow: 2,
