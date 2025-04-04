@@ -25,7 +25,11 @@ product_intro:
     painting](https://www.duroair.com/solutions/painting-coating/).
 
 
+
+
     Pair it with:
+
+
 
 
     * [DuroRoom™](https://www.duroair.com/products/duroroom) to create a clean air envelope around workpieces for a contaminant free retractable work station.
