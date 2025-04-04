@@ -25,7 +25,11 @@ product_intro:
     painting](https://www.duroair.com/solutions/painting-coating/).
 
 
+
+
     Pair it with:
+
+
 
 
     * [DuroRoom™](https://www.duroair.com/products/duroroom) to create a clean air envelope around workpieces for a contaminant free retractable work station.
@@ -36,18 +40,26 @@ image_1: /img/image-2-durocap.jpg
 techncal_specification:
   technical_heading: Technical Specifications
   technical_description: >-
-    * <!--StartFragment-->
+    <!--StartFragment-->
 
-      * Single phase 220V and three phase 208/230/460/575V available upon request.
-      * Built-in air regulation control with production air interlocked/ fans for safety.
-      * Exhaust system creates a negative pressure vacuum seal around the DuroRoom to ensure no contaminants or VOCs are released into the main work environment and are directed through the exhaust system’s filters to the exterior.
-      * Non-sparking aluminum blades, sized 12” to 60”, with 1/2hp to 10hp motors dependent on required airflow.
-      * Pairs with enclosure made of a durable fire rated PVC vinyl meeting the requirements of NFPA 701.
-      * System exhausts air to the exterior and requires ducting and make-up air.
 
-      For ISO classifications and other technical information, download our DuroCap fact sheet!
+    * Single phase 220V and three phase 208/230/460/575V available upon request.
 
-      <!--EndFragment-->
+    * Built-in air regulation control with production air interlocked/ fans for safety.
+
+    * Exhaust system creates a negative pressure vacuum seal around the DuroRoom to ensure no contaminants or VOCs are released into the main work environment and are directed through the exhaust system’s filters to the exterior.
+
+    * Non-sparking aluminum blades, sized 12” to 60”, with 1/2hp to 10hp motors dependent on required airflow.
+
+    * Pairs with enclosure made of a durable fire rated PVC vinyl meeting the requirements of NFPA 701.
+
+    * System exhausts air to the exterior and requires ducting and make-up air.
+
+
+    For ISO classifications and other technical information, download our DuroCap fact sheet!
+
+
+    <!--EndFragment-->
 new_key_features:
   - description: Comes fully assembled with a pre-wired control panel (lockable
       fused disconnect and C/UL/US Listed). Combined with a DuroRoom, the system
