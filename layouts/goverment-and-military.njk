@@ -37,7 +37,7 @@
 
     <!-- DOD Section Begin -->
 
-        <div class="dod-sec cmn-gap mobile-sec-dod">
+        <div class="dod-sec cmn-gap">
             <div class="container">
                 <div class="dod-inr">
                     <div class="row">
@@ -49,78 +49,46 @@
                                 </div>
                             </div>
                         </div>
-                        {% if screen_width < 767 %}
-                            <!-- Mobile View (Screen Width < 767px) -->
-                            <div class="col-lg-7 dod-right-wrp">
-                                <div class="dod-right">
-                                    <div class="dod-small-cards-wrp">
-                                    {%- for item in dod_section.child_right_sec if not loop.first -%}
+                        <div class="col-lg-7 dod-right-wrp">
+                            <div class="dod-right">
+
+                                <!-- Small Cards: Dynamically Generated from List Widget --> 
+                                <div class="dod-small-cards-wrp">
+                                    {%- for item in dod_section.child_right_sec if not loop.first -%}  {# Skip the first item #}
                                         <div class="dod-sm-card">
                                             <div class="dod-sm-card-head">
                                                 <h3>{{ item.dod_right_head }}</h3>
                                             </div>
                                             <div class="dod-sm-card-btn">
-                                                <a href="#" class="show-decribe-data-one" data-target="show-describe-data-list-one"
-                                                    data-head="Ensure Service Member Health & Safety">
-                                                    Read More
-                                                    <img src="/img/btn-arrow.svg" alt="Arrow Icon">
+                                                <a href="#url" 
+                                                class="dod-btn" 
+                                                data-head="{{ item.dod_right_head }}" 
+                                                data-desc="{{ item.description | md }}">
+                                                {{ item.btn }}
+                                                <img src="/img/btn-arrow.svg" alt="Arrow Icon">
                                                 </a>
                                             </div>
                                         </div>
-                                    {%- endfor -%}                                                                      
-                                        <!-- SHOW HIDE SECTION -->
-                                        <div class="dod-card-wrp show-describe-data-list-{{loop.index}}" style="display: none;">
-                                            <div class="dod-card">
-                                                <div class="dod-card-head">
-                                                    <h3 id="dod-main-head">{{ item.dod_right_head }}</h3>
-                                                </div>
-                                                <div class="dod-card-body" id="dod-main-body">
-                                                    {{ dod_section.child_right_sec[0].description | md }}
-                                                </div>
-                                            </div>
+                                    {%- endfor -%}
+                                </div>
+                                
+                                <!-- Main Section: Show First List Item Initially -->
+                                <div class="dod-card-wrp">
+                                    <div class="dod-card">
+                                        <div class="dod-card-head">
+                                            <h3 id="dod-main-head">
+                                                {{ dod_section.child_right_sec[0].dod_right_head }}
+                                            </h3>
+                                        </div>
+                                        <div class="dod-card-body" id="dod-main-body">
+                                            {{ dod_section.child_right_sec[0].description | md }} 
                                         </div>
                                     </div>
                                 </div>
+
+                                
                             </div>
-
-                        {% else %}
-                            <!-- Desktop View (Screen Width ≥ 767px) -->
-                            <div class="col-lg-7 dod-right-wrp">
-                                <div class="dod-right">
-                                    <!-- Small Cards -->
-                                    <div class="dod-small-cards-wrp">
-                                        {%- for item in dod_section.child_right_sec if not loop.first -%}
-                                            <div class="dod-sm-card">
-                                                <div class="dod-sm-card-head">
-                                                    <h3>{{ item.dod_right_head }}</h3>
-                                                </div>
-                                                <div class="dod-sm-card-btn">
-                                                    <a href="#url" class="dod-btn" 
-                                                        data-head="{{ item.dod_right_head }}" 
-                                                        data-desc="{{ item.description | md }}">
-                                                        {{ item.btn }}
-                                                        <img src="/img/btn-arrow.svg" alt="Arrow Icon">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        {%- endfor -%}
-                                    </div>
-
-                                    <!-- Main Section (First Item) -->
-                                    <div class="dod-card-wrp">
-                                        <div class="dod-card">
-                                            <div class="dod-card-head">
-                                                <h3 id="dod-main-head">{{ dod_section.child_right_sec[0].dod_right_head }}</h3>
-                                            </div>
-                                            <div class="dod-card-body" id="dod-main-body">
-                                                {{ dod_section.child_right_sec[0].description | md }} 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        {% endif %}
-
+                        </div>
                     </div>
                 </div>
             </div>
@@ -264,7 +232,6 @@
                             <div class="case-study-slider">
                                 {%- for caseStudy in caseStudies -%}
                                 <div class="casesl-item">
-                                <a href="/{{ caseStudy.path }}" class="arw-btn-icon">
                                     <div class="cs-item-inr">
                                         <div class="csitem-img">
                                             <img src="{{ caseStudy.small_image }}" alt="{{ caseStudy.title }}">
@@ -276,7 +243,6 @@
                                             </a>
                                         </div>
                                     </div>
-                                </a>
                                 </div>
                                 {%- endfor -%}
                             </div>
