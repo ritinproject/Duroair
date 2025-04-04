@@ -22,7 +22,12 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="cmn-about-left">
-                                <div class="cmnabt-img"><img src="{{ thumbnail }}" alt="Image"></div>
+                                {% if intro_video and intro_video != '' %}
+                                    <video autoplay loop muted src="{{ intro_video }}" class="visible"></video>
+                                        {% else %}
+                                            <img src="{{ thumbnail }}" alt="Image">
+                                        {% endif %}
+                                <video autoplay loop muted src="{{ intro_video }}" class="visible"></video>
                             </div>
                         </div>
                     </div>
