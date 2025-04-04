@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let accordionItems = document.querySelectorAll(".reasons-accrdn-card");
     let sliderItems = document.querySelectorAll(".reasonert-navfor-slider-inr-item");
     let navItems = document.querySelectorAll(".reason-slider-nav-item");
-    let carouselImages = document.querySelectorAll(".carousel-image"); // Add a selector for carousel images
 
     function activateItem(index) {
         // Remove "active" class from all items
@@ -12,14 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         sliderItems.forEach((el) => el.classList.remove("active"));
         navItems.forEach((el) => el.classList.remove("active"));
-        carouselImages.forEach((el) => el.style.display = "none"); // Hide all carousel images
 
         // Add "active" class to the clicked index
         accordionItems[index].classList.add("active");
         accordionItems[index].querySelector(".reasonsaccr-body").style.display = "block"; // Show content
         sliderItems[index].classList.add("active");
         navItems[index].classList.add("active");
-        carouselImages[index].style.display = "block"; // Show the corresponding image
+
+        // Show the corresponding image
+        sliderItems.forEach((el) => el.style.display = "none"); // Hide all images first
+        let activeImage = document.querySelector(`.reasonert-navfor-slider-inr-item[data-index='${index + 1}']`);
+        if (activeImage) {
+            activeImage.style.display = "block"; // Show only the selected image
+        }
     }
 
     // Accordion Click Event
