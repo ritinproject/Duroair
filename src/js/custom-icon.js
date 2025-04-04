@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           $target.slideUp();
         } else {
           // Pehle sabhi sections band karo
-          $(".show-describe-data-list-one, .show-describe-data-list-two, .show-describe-data-list-third").slideUp();
+          $(".show-describe-data-list-1, .show-describe-data-list-2, .show-describe-data-list-3").slideUp();
           // Fir clicked wale section ko toggle karo
           $target.stop(true, true).slideDown();
         }
