@@ -9,14 +9,14 @@ show_in_menu: "true"
 jumbotron:
   img: /img/heros/hero-aerospace.jpg
 layout: industry.njk
-thumbnail: /img/thumbs/hero-aerospace.jpg
+thumbnail: /media/uploads/12345.jpg
 text_1: Engineered Clean Air Solutions That Won’t Disrupt Your Lead Time
 image_1: /img/image-1-aerospace.jpg
 text_2: Modular Industrial Air Filtration Solutions for Military and Defense
   Manufacturing
-image_2: /img/image-2-aerospace.jpg
+image_2: /media/uploads/adobestock_676185818_preview.jpeg
 text_3: Modular multi-process clean rooms
-image_3: /media/uploads/airplane.jpg
+image_3: /media/uploads/adobestock_705270997_preview.jpeg
 short_description: Deploy with existing manufacturing cells without disrupting lead time.
 secondary_copy: >-
   ### Modular Aerospace Filtration Systems
