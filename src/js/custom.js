@@ -431,28 +431,34 @@ $(document).ready(function () {
 
     document.addEventListener("DOMContentLoaded", function () {
         const carousel = document.querySelector('#heroCarousel');
-      
+        const videos = carousel.querySelectorAll('video');
+    
+        // Function to handle autoplaying only the active video
         function playActiveVideo() {
-          // Pause all videos
-          carousel.querySelectorAll('video').forEach(v => v.pause());
-      
-          // Play the active slide's video
-          const activeVideo = carousel.querySelector('.carousel-item.active video');
-          if (activeVideo) {
-            activeVideo.muted = true;
-            activeVideo.play().catch(err => {
-              console.warn("Autoplay failed:", err);
+            // Pause all videos
+            videos.forEach(v => {
+                v.pause();
+                v.currentTime = 0;
             });
-          }
-          else{
-            console.log('not found');
-          }
+    
+            // Play the current active one
+            const activeSlide = carousel.querySelector('.carousel-item.active');
+            const video = activeSlide?.querySelector('video');
+            if (video) {
+                // Play it after ensuring it's muted and playsinline
+                video.muted = true;
+                video.playsInline = true;
+                video.play().catch(err => {
+                    console.warn("Autoplay blocked:", err);
+                });
+            }
         }
-      
-        // Play first video if present
+    
+        // Try autoplaying first video
         playActiveVideo();
-      
-        // Bootstrap carousel slide event
-        carousel.addEventListener('slid.bs.carousel', playActiveVideo);
-      });
-      
+    
+        // Listen to carousel slide event (when slide animation finishes)
+        carousel.addEventListener('slid.bs.carousel', function () {
+            playActiveVideo();
+        });
+    });
