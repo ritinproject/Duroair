@@ -14,8 +14,34 @@
             {%- endif -%}
         </div>
     </div>
-    <div class="hero-overlay"></div>
+    <div class="hero-overlay">
     {% if layout == 'home.njk' %}
-                <video autoplay="true" loop="true" muted="true" src="/img/heros/home-hero.mp4" class="visible"></video>
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Slide 1 - Video -->
+            <div class="carousel-item active">
+                <video autoplay loop muted playsinline class="w-100 hero-video" style="object-fit: cover;">
+                    <source src="/img/heros/home-hero.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- Slide 2 - Image -->
+            <div class="carousel-item">
+                <div class="hero-slide-img" style="background-image: url('/img/heros/hero-default.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
+            </div>
+
+            <!-- Add more slides as needed -->
+        </div>
+
+        <!-- Optional controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
     {% endif %}
 </div>
+
