@@ -427,4 +427,23 @@ $(document).ready(function () {
         }
       });
     });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.querySelector('#heroCarousel');
+        const video = carousel.querySelector('.carousel-item.active video');
+      
+        if (video) {
+          video.play();
+        }
+      
+        // Optional: Play on slide event
+        carousel.addEventListener('slid.bs.carousel', function () {
+          const activeSlide = carousel.querySelector('.carousel-item.active video');
+          if (activeSlide) {
+            activeSlide.play();
+          }
+        });
+      });
+      
     
