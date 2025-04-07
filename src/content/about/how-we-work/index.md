@@ -10,9 +10,9 @@ heading: Always Innovating for Your Manufacturing Reality
 image_section:
   image_1: /media/uploads/hww-abt-img-1.png
   image_2: /media/uploads/hww-abt-img-2.png
-  image_3: /media/uploads/hww-abt-img-3.png
-  image_4: /media/uploads/hww-abt-img-4.png
-  image_5: /media/uploads/hww-abt-img-5.png
+  image_3: /media/uploads/adobestock_655386544_preview.jpeg
+  image_4: /media/uploads/adobestock_625996984_preview.jpeg
+  image_5: /media/uploads/adobestock_322016196_preview.jpeg
 blocks:
   - icon: /img/icons/icon-basic_magnifier.svg
     copy: Analyze your technical, space, and budgetary requirements
@@ -25,7 +25,6 @@ blocks:
   - icon: /img/icons/icon-basic_sheet_pen.svg
     copy: Follow up to ensure your solution is fully compliant and creating a
       cleaner, safer, more productive working environment
-
 title: How We Work
 nav_sort: 2000
 show_in_menu: "true"
