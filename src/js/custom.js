@@ -444,6 +444,9 @@ $(document).ready(function () {
               console.warn("Autoplay failed:", err);
             });
           }
+          else{
+            console.log('not found');
+          }
         }
       
         // Play first video if present
