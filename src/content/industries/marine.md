@@ -10,10 +10,10 @@ show_in_menu: "true"
 jumbotron:
   img: /img/heros/hero-marine.jpg
 layout: industry.njk
-thumbnail: /img/thumbs/hero-marine.jpg
-image_1: /img/image-1-marine.jpg
-image_2: /img/image-2-marine.jpg
-image_3: /media/uploads/sandblasting.png
+thumbnail: /media/uploads/adobestock_812703688_preview.jpeg
+image_1: /media/uploads/adobestock_1050950236_preview.jpeg
+image_2: /media/uploads/adobestock_1104501518_preview.jpeg
+image_3: /media/uploads/adobestock_1284897765_preview.jpeg
 short_description: Minimize material handling disruptions for finishing and painting.
 secondary_copy: >-
   ### Modular Industrial Air Filter Systems for Marine Manufacturing
