@@ -431,19 +431,30 @@ $(document).ready(function () {
 
     document.addEventListener("DOMContentLoaded", function () {
         const carousel = document.querySelector('#heroCarousel');
-        const video = carousel.querySelector('.carousel-item.active video');
       
-        if (video) {
-          video.play();
-        }
-      
-        // Optional: Play on slide event
         carousel.addEventListener('slid.bs.carousel', function () {
-          const activeSlide = carousel.querySelector('.carousel-item.active video');
-          if (activeSlide) {
-            activeSlide.play();
+          // Pause all videos
+          carousel.querySelectorAll('video').forEach(v => v.pause());
+      
+          // Play the active slide's video
+          const activeVideo = carousel.querySelector('.carousel-item.active video');
+          if (activeVideo) {
+            activeVideo.muted = true;
+            activeVideo.play().catch(err => {
+              console.warn("Autoplay failed:", err);
+            });
           }
         });
+      
+        // Optional: play first video if it's active
+        const firstVideo = carousel.querySelector('.carousel-item.active video');
+        if (firstVideo) {
+          firstVideo.muted = true;
+          firstVideo.play().catch(err => {
+            console.warn("Initial autoplay failed:", err);
+          });
+        }
       });
+      
       
     
