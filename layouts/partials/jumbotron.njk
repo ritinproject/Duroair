@@ -16,55 +16,48 @@
     </div>
     <div class="hero-overlay">
     {% if layout == 'home.njk' %}
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
 
-            <!-- Slide 1: Video -->
-            <div class="carousel-item active">
-                 <video
-                    muted
-                    autoplay
-                    loop
-                    playsinline
-                    class="d-block w-100">
-                    <source src="/img/heros/home-hero.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                    </video>
-            </div>
+    <!-- ✅ Move indicators here -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
 
-            <!-- Slide 1: Image -->
-            <div class="carousel-item">
-                <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-1.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
-            </div>
-
-            <!-- Slide 2: Image -->
-            <div class="carousel-item">
-                <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-2.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
-            </div>
-
-            <!-- Slide 3: Image -->
-            <div class="carousel-item">
-                <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-3.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
-            </div>
-
-            <!-- Add more slides if needed -->
+    <div class="carousel-inner">
+        <!-- Slide 1: Video -->
+        <div class="carousel-item active">
+            <video
+                muted
+                autoplay
+                loop
+                playsinline
+                class="d-block w-100">
+                <source src="/img/heros/home-hero.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
 
-        <!-- Optional Carousel Controls 
-        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button> -->
+        <!-- Slide 2: Image -->
+        <div class="carousel-item">
+            <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-1.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
+        </div>
+
+        <!-- Slide 3: Image -->
+        <div class="carousel-item">
+            <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-2.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
+        </div>
+
+        <!-- Slide 4: Image -->
+        <div class="carousel-item">
+            <div class="hero-slide-img" style="background-image: url('/img/heros/hero-banner-3.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
+        </div>
     </div>
-    {% endif %}
+
+</div>
+{% endif %}
+
 </div>
 </div> <!-- Closing for #hero -->
 
