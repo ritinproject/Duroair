@@ -9,10 +9,10 @@ show_in_menu: "true"
 jumbotron:
   img: /img/heros/hero-metalfabrication.jpg
 layout: industry.njk
-thumbnail: /img/thumbs/hero-metalfabrication.jpg
-image_1: /img/image-1-metalfabrication.jpg
-image_2: /img/image-2-metalfabrication.jpg
-image_3: /media/uploads/duro-dust-3-stone-cutting.jpg
+thumbnail: /media/uploads/adobestock_142949391.jpeg
+image_1: /media/uploads/adobestock_250018500.jpeg
+image_2: /media/uploads/adobestock_275429538_preview.jpeg
+image_3: /media/uploads/adobestock_367244679_preview.jpeg
 short_description: Meet your toughest EHS requirements without draining your bottom line.
 secondary_copy: >-
   ### Modular Industrial Air Filtration for Metal Fabrication
