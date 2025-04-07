@@ -14,25 +14,8 @@
             {%- endif -%}
         </div>
     </div>
-
-<div class="hero-overlay">
+    <div class="hero-overlay"></div>
     {% if layout == 'home.njk' %}
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-
-            <!-- Slide 1 - Video -->
-            <div class="carousel-item active">
                 <video autoplay="true" loop="true" muted="true" src="/img/heros/home-hero.mp4" class="visible"></video>
-            </div>
-
-            <!-- Slide 2 - Image -->
-            <div class="carousel-item">
-                <div class="hero-slide-img" style="background-image: url('/img/heros/hero-default.jpg'); background-size: cover; background-position: center; height: 100vh;"></div>
-            </div>
-
-            <!-- Add more slides as needed -->
-        </div>
-    </div>
     {% endif %}
 </div>
-
