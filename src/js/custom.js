@@ -429,24 +429,4 @@ $(document).ready(function () {
     });
 
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const carousel = document.querySelector('#heroCarousel');
-      
-        function playActiveVideo() {
-          const activeVideo = carousel.querySelector('.carousel-item.active video');
-          if (activeVideo) {
-            activeVideo.muted = true;
-            activeVideo.play().catch(err => {
-              console.warn("Autoplay failed:", err);
-            });
-          }
-        }
-      
-        // Small delay to ensure Bootstrap finishes slide activation
-        setTimeout(() => {
-          playActiveVideo();
-        }, 300); // 300ms delay to wait for carousel initialization
-      
-        carousel.addEventListener('slid.bs.carousel', playActiveVideo);
-      });
-      
+    
