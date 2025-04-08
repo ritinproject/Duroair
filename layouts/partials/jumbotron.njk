@@ -7,25 +7,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const carousel = document.querySelector('#heroCarousel');
 
   function playActiveVideo() {
-    const slides = carousel.querySelectorAll('.carousel-item');
-    slides.forEach(slide => {
-      const video = slide.querySelector('video');
-      if (video) {
-        video.pause();
-        video.currentTime = 0;
-      }
-    });
+  const slides = carousel.querySelectorAll('.carousel-item');
+  const activeSlide = carousel.querySelector('.carousel-item.active');
 
-    const activeSlide = carousel.querySelector('.carousel-item.active');
-    const activeVideo = activeSlide?.querySelector('video');
-    if (activeVideo) {
-      activeVideo.muted = true;
-      activeVideo.playsInline = true;
-      activeVideo.play().catch(err => {
-        console.warn("Autoplay failed:", err);
-      });
+  slides.forEach(slide => {
+    const video = slide.querySelector('video');
+    // Only pause non-active videos
+    if (video && slide !== activeSlide) {
+      video.pause();
+      video.currentTime = 0;
     }
+  });
+
+  const activeVideo = activeSlide?.querySelector('video');
+  if (activeVideo) {
+    activeVideo.muted = true;
+    activeVideo.playsInline = true;
+    activeVideo.play().catch(err => {
+      console.warn("Autoplay failed:", err);
+    });
   }
+}
+
 
   // Delay initial video play after page loads
   setTimeout(playActiveVideo, 300);
