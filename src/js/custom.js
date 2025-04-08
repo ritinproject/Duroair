@@ -431,36 +431,22 @@ $(document).ready(function () {
 
     document.addEventListener("DOMContentLoaded", function () {
         const carousel = document.querySelector('#heroCarousel');
-        const videos = carousel.querySelectorAll('video');
-    
-        // Function to handle autoplaying only the active video
+      
         function playActiveVideo() {
-            // Pause all videos
-            videos.forEach(v => {
-                v.pause();
-                v.currentTime = 0;
+          const activeVideo = carousel.querySelector('.carousel-item.active video');
+          if (activeVideo) {
+            activeVideo.muted = true;
+            activeVideo.play().catch(err => {
+              console.warn("Autoplay failed:", err);
             });
-        
-            // Delay slightly to let the slide render
-            setTimeout(() => {
-                const activeSlide = carousel.querySelector('.carousel-item.active');
-                const video = activeSlide?.querySelector('video');
-                if (video) {
-                    video.muted = true;
-                    video.playsInline = true;
-                    video.play().catch(err => {
-                        console.warn("Autoplay blocked:", err);
-                    });
-                }
-            }, 200); // Small delay helps!
+          }
         }
-        
-    
-        // Try autoplaying first video
-        playActiveVideo();
-    
-        // Listen to carousel slide event (when slide animation finishes)
-        carousel.addEventListener('slid.bs.carousel', function () {
-            playActiveVideo();
-        });
-    });
+      
+        // Small delay to ensure Bootstrap finishes slide activation
+        setTimeout(() => {
+          playActiveVideo();
+        }, 300); // 300ms delay to wait for carousel initialization
+      
+        carousel.addEventListener('slid.bs.carousel', playActiveVideo);
+      });
+      
