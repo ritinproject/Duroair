@@ -440,19 +440,21 @@ $(document).ready(function () {
                 v.pause();
                 v.currentTime = 0;
             });
-    
-            // Play the current active one
-            const activeSlide = carousel.querySelector('.carousel-item.active');
-            const video = activeSlide?.querySelector('video');
-            if (video) {
-                // Play it after ensuring it's muted and playsinline
-                video.muted = true;
-                video.playsInline = true;
-                video.play().catch(err => {
-                    console.warn("Autoplay blocked:", err);
-                });
-            }
+        
+            // Delay slightly to let the slide render
+            setTimeout(() => {
+                const activeSlide = carousel.querySelector('.carousel-item.active');
+                const video = activeSlide?.querySelector('video');
+                if (video) {
+                    video.muted = true;
+                    video.playsInline = true;
+                    video.play().catch(err => {
+                        console.warn("Autoplay blocked:", err);
+                    });
+                }
+            }, 200); // Small delay helps!
         }
+        
     
         // Try autoplaying first video
         playActiveVideo();
