@@ -2,42 +2,6 @@
 {%- set heroImg = jumbotron.img if jumbotron.img else '/img/heros/hero-default.jpg' -%}
 <!-- Bootstrap JS (needed for carousel to work) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const carousel = document.querySelector('#heroCarousel');
-
-  function playActiveVideo() {
-  const slides = carousel.querySelectorAll('.carousel-item');
-  const activeSlide = carousel.querySelector('.carousel-item.active');
-
-  slides.forEach(slide => {
-    const video = slide.querySelector('video');
-    // Only pause non-active videos
-    if (video && slide !== activeSlide) {
-      video.pause();
-      video.currentTime = 0;
-    }
-  });
-
-  const activeVideo = activeSlide?.querySelector('video');
-  if (activeVideo) {
-    activeVideo.muted = true;
-    activeVideo.playsInline = true;
-    activeVideo.play().catch(err => {
-      console.warn("Autoplay failed:", err);
-    });
-  }
-}
-
-
-  // Delay initial video play after page loads
-  setTimeout(playActiveVideo, 300);
-
-  // Play video when slide transition finishes
-  carousel.addEventListener('slid.bs.carousel', playActiveVideo);
-});
-</script>
-
 
 <div id="hero" style="background-image: url('{{heroImg}}');" class="{{waveType}}">
     <div class="container">
@@ -55,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <div class="hero-overlay">
                 {% if layout == 'home.njk' %}
-                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
 
                         <!-- Indicators OUTSIDE carousel-inner -->
                             <div class="carousel-indicators">
