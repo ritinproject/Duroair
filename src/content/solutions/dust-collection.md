@@ -49,6 +49,7 @@ copy_block_2: >-
 
 
   * [DuroTower™](/products/durotower):
+
     * 8,000 – 30,000 CFM design range
     * Small footprint: 40” x 50”
     * Available height options of 11’ or 14’ depending on plant layout
@@ -63,6 +64,7 @@ copy_block_2: >-
 
 
   * [DuroDust™](/products/durodust):
+
     * 13,500 – 50,000 CFM design range
     * VFD with stop-start speed pot dial controller and magna sense
     * 100 percent of particulate containment to 1.0 micron and 95% of particulate to 0.4 micron
@@ -78,6 +80,7 @@ copy_block_2: >-
 
 
   * [DuroCollector™](/products/durocollector):
+
     * 2000 – 80,000 CFM design range
     * Cartridge collector can be upgraded to HEPA with optional after filter
     * Self-clean with automatic blow off
@@ -86,7 +89,8 @@ copy_block_2: >-
   - - -
 
 
-  * DuroTable™: 
+  * [DuroTable™](/products/durotable): 
+
     * Custom down draft table with multi-stage filtration 
     * VFD 5000 CFM low-8,000 CFM high 
     * Customized four-stage filtration to NESAHP 319 or HEPA
