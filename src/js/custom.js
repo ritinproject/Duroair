@@ -429,4 +429,43 @@ $(document).ready(function () {
     });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.getElementById('heroCarousel');
+
+    function playActiveVideo() {
+        const activeSlide = carousel.querySelector('.carousel-item.active');
+        const video = activeSlide?.querySelector('video');
+
+        // Pause all other videos
+        carousel.querySelectorAll('video').forEach(v => {
+            if (v !== video) {
+                v.pause();
+                v.currentTime = 0;
+            }
+        });
+
+        if (video) {
+            video.muted = true;
+            video.playsInline = true;
+            setTimeout(() => {
+                // Delay play to ensure carousel animation ends
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(error => {
+                        console.warn("Autoplay error:", error);
+                    });
+                }
+            }, 600); // Bootstrap slide animation duration (~500ms)
+        }
+    }
+
+    // Wait until carousel is initialized
+    setTimeout(playActiveVideo, 800); // For first slide on load
+
+    // On slide change
+    carousel.addEventListener('slid.bs.carousel', playActiveVideo);
+});
+
+
+
     
