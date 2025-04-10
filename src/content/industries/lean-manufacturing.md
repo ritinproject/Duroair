@@ -11,8 +11,11 @@ jumbotron:
   img: /img/heros/hero-lean-manufacturing.jpg
 layout: industry.njk
 thumbnail: /media/uploads/img_20160623_085324_hdr.jpg
+text_1: Dummy
 image_1: /media/uploads/20230528_111529.jpg
+text_2: Dummy
 image_2: /media/uploads/20230528_111517.jpg
+text_3: Dummy
 image_3: /media/uploads/20230528_111451.jpg
 short_description: Boost one-piece flows and cellular processes with a modular solution.
 secondary_copy: >-
