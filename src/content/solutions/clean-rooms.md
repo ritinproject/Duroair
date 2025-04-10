@@ -10,7 +10,7 @@ nav_sort: 2000
 show_in_menu: "true"
 layout: solution.njk
 thumbnail: /media/uploads/image-30-.png
-image_1: /media/uploads/soft-walled-clean-room-durocleans-cropped.jpg
+image_1: /media/uploads/soft-walled-clean-room-durocleans-cropped-1-.jpg
 image_2: /img/image-2-cleanrooms.jpg
 image_3: /img/image-3-cleanrooms.png
 short_description: Duroair's modular clean rooms keep harmful elements out and
