@@ -11,8 +11,11 @@ jumbotron:
   img: /img/heros/hero-marine.jpg
 layout: industry.njk
 thumbnail: /media/uploads/adobestock_812703688_preview.jpeg
+text_1: Dummy
 image_1: /media/uploads/adobestock_1050950236_preview.jpeg
+text_2: Dummy
 image_2: /media/uploads/adobestock_1104501518_preview.jpeg
+text_3: Dummy
 image_3: /media/uploads/adobestock_1284897765_preview.jpeg
 short_description: Minimize material handling disruptions for finishing and painting.
 secondary_copy: >-
