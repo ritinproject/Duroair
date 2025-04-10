@@ -11,8 +11,11 @@ jumbotron:
   img: /img/heros/hero-stonecutting.jpg
 layout: industry.njk
 thumbnail: /media/uploads/adobestock_62297265_preview.jpeg
+text_1: Dummy
 image_1: /media/uploads/adobestock_64009608_preview.jpeg
+text_2: Dummy
 image_2: /media/uploads/adobestock_203988303_preview.jpeg
+text_3: Dummy
 image_3: /media/uploads/dur-221410_blog1-img.jpg.jpg
 short_description: Integrate OSHA-compliant dust protection with your existing layout.
 secondary_copy: >-
