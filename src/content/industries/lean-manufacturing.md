@@ -10,10 +10,10 @@ show_in_menu: "true"
 jumbotron:
   img: /img/heros/hero-lean-manufacturing.jpg
 layout: industry.njk
-thumbnail: /img/thumbs/hero-lean-manufacturing.jpg
-image_1: /img/image-1-leanmanufacturing.jpg
-image_2: /img/image-2-leanmanufacturing.jpg
-image_3: /media/uploads/case-study-detail-img-1.png
+thumbnail: /media/uploads/img_20160623_085324_hdr.jpg
+image_1: /media/uploads/20230528_111529.jpg
+image_2: /media/uploads/20230528_111517.jpg
+image_3: /media/uploads/20230528_111451.jpg
 short_description: Boost one-piece flows and cellular processes with a modular solution.
 secondary_copy: >-
   ### Modular Industrial Air Filtration for Lean-Minded Manufacturers
