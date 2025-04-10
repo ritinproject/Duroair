@@ -229,7 +229,6 @@ collections:
     label: "Products"
     folder: "src/content/products"
     create: true
-    show_in_menu: "false"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - label: SEO
@@ -240,6 +239,15 @@ collections:
           - {label: "Page Title", name: "page_title", widget: "string", required: false, 'hint':'Will be suffixed with " | Duroair"'}
           - {label: "Page Description", name: "description", widget: "string", required: false}
           - {label: "No index, no follow", name: "noindex", widget: "boolean", required: false}
+      - {label: "Nav Title", name: "nav_title", widget: "string", hint: "Optional nav item label (will default to page title)", required: false}
+      - {label: "Nav Order", name: "nav_sort", widget: "number", required: false, value_type: "int"}
+      - label: "Show in nav?"
+        name: "show_in_menu"
+        widget: "select"
+        required: false
+        options:
+          - { label: "Yes", value: "true" }
+          - { label: "No", value: "false" }
       - label: "Hero"
         name: "jumbotron"
         widget: "object"
