@@ -94,7 +94,7 @@ our_experties:
       * **Reducing equipment expenses:** In some cases, a portable containment solution allows you to take clean air to each workpiece, which can eliminate the need for expensive overhead cranes or conveyors to move workpieces.
 
       * **Increasing facility/labor ROI:** Time-consuming material handling can eat into your profits because it ties up facility floor space and labor. Duroair’s clean-air solutions can retract to store when not in use. This minimizes space and labor required for material handling, enabling you to take on additional, more profitable projects in-house.
-    image: /media/uploads/full-room-from-exhaust.jpg
+    image: /media/uploads/full-room-from-exhaust-cropped.jpg
   - heading: Patented Industrial Air Filtration Technology
     description: >-
       Complex containment requires multiple stages of industrial filtration to
