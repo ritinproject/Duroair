@@ -5,7 +5,6 @@ seo:
     industrial dust collection with the ability to maintain a 100% air
     filtration rate at all times.
   page_title: DuroCollector™ | Industrial Dust Collection
-show_in_menu: "false"
 jumbotron:
   img: /img/heros/hero-durocollector.jpg
 layout: product.njk
