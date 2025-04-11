@@ -11,11 +11,11 @@ jumbotron:
   img: /img/heros/hero-alternativeenergy.jpg
 layout: industry.njk
 thumbnail: /img/thumbs/hero-alternativeenergy.jpg
-text_1: Dummy
+text_1: ""
 image_1: /img/image-1-alternativeenergy.jpg
-text_2: Dummy
+text_2: ""
 image_2: /img/image-2-alternativeenergy.jpg
-text_3: Dummy
+text_3: ""
 image_3: /media/uploads/case-study-detail-img-3.png
 short_description: Shield delicate solar panel processes from air surface contamination.
 secondary_copy: >-

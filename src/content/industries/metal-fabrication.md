@@ -10,11 +10,11 @@ jumbotron:
   img: /img/heros/hero-metalfabrication.jpg
 layout: industry.njk
 thumbnail: /media/uploads/adobestock_142949391-1-.jpeg
-text_1: Dummy
+text_1: ""
 image_1: /media/uploads/adobestock_250018500-1-.jpeg
-text_2: Dummy
+text_2: ""
 image_2: /media/uploads/adobestock_275429538.jpeg
-text_3: Dummy
+text_3: ""
 image_3: /media/uploads/adobestock_367244679.jpeg
 short_description: Meet your toughest EHS requirements without draining your bottom line.
 secondary_copy: >-

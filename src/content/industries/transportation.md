@@ -10,11 +10,11 @@ jumbotron:
   img: /media/uploads/airplane.jpg
 layout: industry.njk
 thumbnail: /media/uploads/adobestock_39307969.jpeg
-text_1: Dummy
+text_1: ""
 image_1: /media/uploads/adobestock_192810166.jpeg
-text_2: Dummy
+text_2: ""
 image_2: /media/uploads/adobestock_938041046.jpeg
-text_3: Dummy
+text_3: ""
 image_3: /media/uploads/adobestock_1027217732.jpeg
 short_description: Speed up drying times while meeting your safety regulatory requirements.
 secondary_copy: >-
