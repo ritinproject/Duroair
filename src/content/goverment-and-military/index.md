@@ -27,7 +27,7 @@ permalink: military-and-government
 thumbnail: /img/thumbs/hero-militarydefense.jpg
 image_1: /img/image-1-militarydefense.jpg
 image_2: /img/image-2-militarydefense.jpg
-title: Government and Military
+title: Military and Government
 seo:
   description: Duroair modular industrial air filtration solutions bring clean air
     to each rapid-moving defense manufacturing operation.
