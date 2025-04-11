@@ -9,10 +9,10 @@ jumbotron:
 heading: Always Innovating for Your Manufacturing Reality
 image_section:
   image_1: /media/uploads/hww-abt-img-1.png
-  image_2: /media/uploads/adobestock_625996984_preview.jpeg
-  image_3: /media/uploads/adobestock_655386544_preview.jpeg
-  image_4: /media/uploads/adobestock_426954596_preview.jpeg
-  image_5: /media/uploads/adobestock_322016196_preview.jpeg
+  image_2: /media/uploads/adobestock_625996984.jpeg
+  image_3: /media/uploads/adobestock_655386544.jpeg
+  image_4: /media/uploads/adobestock_426954596.jpeg
+  image_5: /media/uploads/adobestock_322016196.jpeg
 blocks:
   - icon: /img/icons/icon-basic_magnifier.svg
     copy: Analyze your technical, space, and budgetary requirements

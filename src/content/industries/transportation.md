@@ -9,13 +9,13 @@ show_in_menu: "true"
 jumbotron:
   img: /media/uploads/airplane.jpg
 layout: industry.njk
-thumbnail: /media/uploads/adobestock_39307969_preview.jpeg
+thumbnail: /media/uploads/adobestock_39307969.jpeg
 text_1: Dummy
-image_1: /media/uploads/adobestock_192810166_preview.jpeg
+image_1: /media/uploads/adobestock_192810166.jpeg
 text_2: Dummy
-image_2: /media/uploads/adobestock_938041046_preview.jpeg
+image_2: /media/uploads/adobestock_938041046.jpeg
 text_3: Dummy
-image_3: /media/uploads/adobestock_1027217732_preview.jpeg
+image_3: /media/uploads/adobestock_1027217732.jpeg
 short_description: Speed up drying times while meeting your safety regulatory requirements.
 secondary_copy: >-
   ### Modular Fume Extraction Systems For Limited Space
