@@ -19,7 +19,7 @@ secondary_copy: >-
   * **Special anterooms with HEPA filtration** designed to contain, capture, and collect particulates as operators move from inside a retractable enclosure to the general shop environment
 
   * **Down draft worktables** engineered to capture and collect contaminates generated while prepping, sanding, grinding, or cutting
-layout: goverment-and-military.njk
+layout: military-and-government.njk
 jumbotron:
   img: /img/heros/hero-militarydefense.jpg
 main_head: Advanced, Affordable Clean-Air <br> Solutions for Military MRO
@@ -27,7 +27,7 @@ permalink: government-and-military
 thumbnail: /img/thumbs/hero-militarydefense.jpg
 image_1: /img/image-1-militarydefense.jpg
 image_2: /img/image-2-militarydefense.jpg
-title: Government and Military
+title: Military and Government
 seo:
   description: Duroair modular industrial air filtration solutions bring clean air
     to each rapid-moving defense manufacturing operation.

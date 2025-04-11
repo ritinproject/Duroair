@@ -1,8 +1,8 @@
-- name: "goverment-and-military"
-  label: "Goverment and Military"
-  file: "src/content/goverment-and-military/index.md"
+- name: "military-and-government"
+  label: " Military and Goverment"
+  file: "src/content/military-and-goverment/index.md"
   fields:
-    - {label: "Layout", name: "layout", widget: "hidden", default: "goverment-and-military.njk"}
+    - {label: "Layout", name: "layout", widget: "hidden", default: "military-and-goverment.njk"}
     <!-- @include-static ../partials/base-fields.yml -->
     <!-- @include-static ../partials/jumbotron.yml -->
     <!-- @include-static ../partials/nav-fields.yml -->
