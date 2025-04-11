@@ -107,7 +107,6 @@ compliance:
 related_products:
   - DuroClean™
   - DuroRoom™
-  - DuroDeployable™
 form_intro: Contact Us
 hubspot_form_id: 8a7e8410-f0e6-4fdf-9fe9-60dfeb51b9b4
 redirectUrl: /contact-us/success/
