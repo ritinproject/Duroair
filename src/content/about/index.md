@@ -30,7 +30,7 @@ about_intro:
     * Engineer [solutions](/solutions) to isolate, capture, and contain a wide variety of industrial processes.
 
     * Go [beyond EHS compliance](/about/beyond-compliance/) to maximize efficiency and productivity.
-  heading: "Our Legacy: Transforming Air Quality for Over 13 Years"
+  heading: "Our Legacy: Transforming Air Quality for Over 15 Years"
   image_1: /media/uploads/dur_jan2021_blog_01-thumb.jpg
   image_2: /media/uploads/dur_jan2021_blog_01-img.jpg
 a_nederman_company:
@@ -179,7 +179,7 @@ key_milestone:
       achi_description: 1st hard walled system installed
     - achi_year: "2024"
       achi_description: Duroair receives NSNs from DLA
-    - achi_year: "2020"
+    - achi_year: "2024"
       achi_description: Duroair bought by Nederman, August 30, 2024
 ---
 ### Making the Business Case<br>for Clean Air
