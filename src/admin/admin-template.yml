@@ -24,7 +24,7 @@ collections:
       <!-- @include collections/products-overview.yml -->
       <!-- @include collections/industry-associations.yml -->
       <!-- @include collections/resources.yml -->
-      <!-- @include collections/military-and-goverment.yml -->
+      <!-- @include collections/goverment-and-military.yml -->
       <!-- @include collections/how-we-work.yml -->
       <!-- @include collections/why-duroair.yml -->
       

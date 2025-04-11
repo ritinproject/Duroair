@@ -382,11 +382,11 @@ collections:
           - {label: "Image 2", name: "image_2", widget: "image"}
           - {label: Copy Block 2, name: copy_block_2, widget: markdown }
           - {label: "Image 3", name: "image_3", widget: "image"}
-      - name: "military and Government"
-        label: "Miltary and Governmant"
-        file: "src/content/military-and-government/index.md"
+      - name: "Goverment and military"
+        label: "Govermant And Miltary"
+        file: "src/content/goverment-and-military/index.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "military-and-government.njk"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "goverment-and-military.njk"}
           - {label: "Title", name: "title", widget: "string"}
               - label: "SEO"
                 name: "seo"
