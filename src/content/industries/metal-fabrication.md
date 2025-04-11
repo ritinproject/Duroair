@@ -9,13 +9,13 @@ show_in_menu: "true"
 jumbotron:
   img: /img/heros/hero-metalfabrication.jpg
 layout: industry.njk
-thumbnail: /media/uploads/adobestock_142949391.jpeg
+thumbnail: /media/uploads/adobestock_142949391-1-.jpeg
 text_1: Dummy
-image_1: /media/uploads/adobestock_250018500.jpeg
+image_1: /media/uploads/adobestock_250018500-1-.jpeg
 text_2: Dummy
-image_2: /media/uploads/adobestock_275429538_preview.jpeg
+image_2: /media/uploads/adobestock_275429538.jpeg
 text_3: Dummy
-image_3: /media/uploads/adobestock_367244679_preview.jpeg
+image_3: /media/uploads/adobestock_367244679.jpeg
 short_description: Meet your toughest EHS requirements without draining your bottom line.
 secondary_copy: >-
   ### Modular Industrial Air Filtration for Metal Fabrication
