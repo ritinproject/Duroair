@@ -383,7 +383,7 @@ collections:
           - {label: Copy Block 2, name: copy_block_2, widget: markdown }
           - {label: "Image 3", name: "image_3", widget: "image"}
       - name: "Goverment and military"
-        label: "Govermant And Miltary"
+        label: "Govermant and Miltary"
         file: "src/content/goverment-and-military/index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "goverment-and-military.njk"}
