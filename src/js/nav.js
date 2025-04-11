@@ -44,7 +44,7 @@
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    let navLink = document.querySelector(".nav-government-and-military a.link");
+    let navLink = document.querySelector(".nav-military-and-government a.link");
 
     if (navLink) {
         navLink.textContent = navLink.textContent.replace(/\bGovernment And Military\b/g, "Military and Government");
